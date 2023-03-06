@@ -9,11 +9,13 @@
   import { fade } from "svelte/transition";
   import LazyLoad from "@dimfeld/svelte-lazyload";
   import archetypes from "./archetypes.json";
-  import {t} from "./i18n";
+  import { t } from "./i18n";
 
   // const worker = new Worker(new URL("./worker.js", import.meta.url), {
   //   type: "module",
   // });
+
+  const params = new URLSearchParams(window.location.search);
 
   const dev = false;
   const APIURL = dev ? "http://localhost:8080/" : "https://rotterdam-model.fly.dev/";
@@ -37,12 +39,13 @@
   let score = 0;
   let loading = false;
   let sort = "alphabetical";
-  let show = "important";
+  let show = "all";
   let explainView = "text";
   let treeIndex = 499;
   let fieldElements = [];
   let showCategories = true;
   let categories = [];
+  const scorePosition = params.get("score") == "left" ? "left" : "right";
 
   let categoryNames = [...new Set(FIELDS.map((f) => f.category.toLowerCase()))].sort();
   // let categories = FIELDS.map(f => f.category)
@@ -77,17 +80,17 @@
     //   f.animate();
     // }
     // setTimeout(() => {
-      userFields.set(
-        FIELDS.map((f) => {
-          if (f.type == "boolean") {
-            return Math.random() < 0.5 ? 0.0 : 1.0;
-          } else if (f.type == "float") {
-            return +(Math.random() * f.maxval).toFixed(1);
-          } else {
-            return parseInt(Math.random() * f.maxval);
-          }
-        })
-      );
+    userFields.set(
+      FIELDS.map((f) => {
+        if (f.type == "boolean") {
+          return Math.random() < 0.5 ? 0.0 : 1.0;
+        } else if (f.type == "float") {
+          return +(Math.random() * f.maxval).toFixed(1);
+        } else {
+          return parseInt(Math.random() * f.maxval);
+        }
+      })
+    );
     // }, 300);
     setCategories;
   }
@@ -103,7 +106,7 @@
     //   let i = featureKey[k]
     //   console.log(i, val)
     // }
-    let newVals = Object.keys(a.values).map(k => {
+    let newVals = Object.keys(a.values).map((k) => {
       return a.values[k];
     });
     userFields.set(newVals);
@@ -116,7 +119,7 @@
   }
 
   async function onSubmit(e) {
-    document.querySelectorAll('main section')[1].scrollIntoView({behavior: 'smooth'});
+    document.querySelectorAll("main section")[1].scrollIntoView({ behavior: "smooth" });
     loading = true;
     let data = { auth: AUTH, d: [$userFields] };
     let response = await fetch(APIURL, {
@@ -178,12 +181,14 @@
           </select>
         </p>
         <p>
-          <label><input type="checkbox" bind:checked={showCategories} />{t("show_categories")}</label>
+          <label
+            ><input type="checkbox" bind:checked={showCategories} />{t("show_categories")}</label
+          >
         </p>
       </div>
 
       <div class="input-options-section">
-        {#each archetypes as a }
+        {#each archetypes as a}
           <p>
             <button on:click|preventDefault={() => onArchetype(a)}>Load Sample "{a.name}"</button>
           </p>
@@ -198,6 +203,19 @@
       <button class="check-score" disabled={loading} on:click|preventDefault={onSubmit}
         >{t("run_model")}</button
       >
+
+      {#if scorePosition == "left"}
+        <div class="score">
+          <div class="score-label">{t("risk_score")}</div>
+          <div class="score-value">
+            {#if loading}
+              <div class="loader" />
+            {:else}
+              {score > 0 ? score : "?"}
+            {/if}
+          </div>
+        </div>
+      {/if}
     </nav>
   </section>
 
@@ -255,18 +273,24 @@
         {t("model_description")}
       </p>
       <div>
-        <div class="score" style="background-color: hsl({100 - score * 100}, 100%, 50%)">
-          <div class="score-label">{t("risk_score")}</div>
-          <div class="score-value">
-            {#if loading}
-              <div class="loader" />
-            {:else}
-              {score > 0 ? score : "?"}
-            {/if}
+        {#if scorePosition != "left"}
+          <div class="score" style="background-color: hsl({100 - score * 100}, 100%, 50%)">
+            <div class="score-label">{t("risk_score")}</div>
+            <div class="score-value">
+              {#if loading}
+                <div class="loader" />
+              {:else}
+                {score > 0 ? score : "?"}
+              {/if}
+            </div>
           </div>
-        </div>
+        {/if}
         <div class="input-options edit-input">
-          <button on:click={() => {window.scrollTo({top: 0, left: 0, behavior: 'smooth'})}}>
+          <button
+            on:click={() => {
+              window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+            }}
+          >
             {t("Edit Input")}
           </button>
         </div>
@@ -484,7 +508,9 @@
     .input-options button {
       padding: 5px;
     }
-    .input-options select, .input-options button, .input-options {
+    .input-options select,
+    .input-options button,
+    .input-options {
       font-size: 14px;
       margin: 0;
     }
@@ -495,7 +521,5 @@
     .input-options.edit-input {
       margin-top: 15px;
     }
-
   }
-
 </style>
