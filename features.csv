@@ -1,316 +1,316 @@
-feature_dutch_underscore,feature_dutch,feature_english_auto_translate,feature_english,description_english,description_dutch,feature_importance,category,default_value,index
-adres_aantal_brp_adres,Leeftijd,Address Number of BRP Addresses,Age,,,6.37,Address,0,0
-adres_aantal_verschillende_wijken,Aantal kostendeler,address number of different neighborhoods,Number of current costsharers,The number of people the welfare recepient currently shares household costs with.,,1.86,Address,0,1
-adres_aantal_verzendadres,Afspraak no show,address number of shipping address,Number of missed meerings,The number of times the welfare recepient has missed a meeting.,,4.68,Address,0,2
-adres_aantal_woonadres_handmatig,geen vakdeskundigheid toepassen,address number of home addresses entered manually,Lacks skill: profesional work experience,0 if the welfare recepient has profesional work experience; 1 if the welfare recepient DOES NOT have profesional work experience.,,2.39,Address,0,3
-adres_dagen_op_adres,contacten onderwerp overleg met inkomen,Address days at address,Number of meetings with a financial counselor,The number of meetings the welfare recepient has had with a financial counselor from the welfare department.,,23.33,Address,0,4
-adres_recentst_onderdeel_rdam,Dagen op adres,address most recently part Rotterdam,Number of days at current address,,,1.40,Address,0,5
-adres_recentste_buurt_groot_ijsselmonde,relatie overig kostendeler,address most recent neighborhood Groot IJsselmonde,Number of costsharers,The number of people the welfare recepient has ever shared costs with,,3.69,Address,0,6
-adres_recentste_buurt_nieuwe_westen,PLA historie ontwikkeling,address most recent neighborhood Nieuwe Westen,Back-to-work plan: development,Personal and profesional development are part of the weflare recepient's back-to-work plan.,,0.00,Address,0,7
-adres_recentste_buurt_other,instrument ladder huidig activering,address most recent neighborhood other,Receives labor reintegration support,"The welfare recepient is receving support to reintegrate into the labor market, including courses or volunteer work.",,2.35,Address,0,8
-adres_recentste_buurt_oude_noorden,contacten: aantal document uitgaand,address most recent neighborhood Oude Noorden,Number of outgoung documents sent last year,,,0.00,Address,0,9
-adres_recentste_buurt_vreewijk,persoonlijke eigenschappen dagen sinds taaleis,address most recent neighborhood Vreewijk,Days since language requirement,The number of days since the welfare recepient has passed their Dutch profiiciency. 0 if the welfare recpeeint hasn't passed their Dutch proficiency exam.,,0.46,Address,0,10
-adres_recentste_plaats_other,persoonlijke eigenschappen dagen sinds opvoer,address most recent,Days since personal qualities updated,The number of days since a social worker has updated the personal qualities of the welfare recepient in the welfare database,,0.00,Address,0,11
-adres_recentste_plaats_rotterdam,ontheffing dagen hist vanwege uw medische omstandigheden,address most recent Rotterdam,Number of exemption days because of a medical condtion,The number of days the welfare recepient has been eexempted from having to find work because of a medical condition,,0.56,Address,0,12
-adres_recentste_wijk_charlois,totaal aantal dagen met een partner,address most recent Charlois district,Number of days with a partner,The total number of days the welfare recepient has spent in a romantic or civil relationship,,1.09,Address,0,13
-adres_recentste_wijk_delfshaven,pla hist pla categorie doelstelling 16,address most recent Delfshaven district,Back-to-work plan objective: volunteer work,Volunteer work is the objective in the welfare recepient's back-to-work plan,,1.38,Address,0,14
-adres_recentste_wijk_feijenoord,relatie kind leeftijd verschil ouder eerste kind,address most recent district of Feijenoord,Age when had first child,The age of the welfare recepient when they had their first child. Fill 0 if no children,,2.39,Contact,0,15
-adres_recentste_wijk_ijsselmonde,kind huidige aantal,address most recent IJsselmonde district,Number of children,,,0.09,Address,0,16
-adres_recentste_wijk_kralingen_c,instrument ladder historie activering,address most recent district Kralingen C,Has received labor reintegration support,The number of times the welfare recepient has received labor reintegration support,,0.28,Address,0,17
-adres_recentste_wijk_noord,Geslacht vrouw,address most recent district Noord,Gender,"0 is man, 1 is woman",,1.01,Address,0,18
-adres_recentste_wijk_other,afspraak inspanningsperiode,address most recent,Number of appointments about work effort,The number of appointments a welfare recepient has had about their effort to find work,,0.90,Address,0,19
-adres_recentste_wijk_prins_alexa,belemmering dagen financiele problemen,address most recent district Prins Alexa,Number of days with financial problems,The number of days the welfare recepient has struggled with financial problems,,1.32,Address,0,20
-adres_recentste_wijk_stadscentru,pla ondertekeningen historie,address most recent district of city center,Number of signed Back-to-work plans,The number of back-to-work plans the welfare recepient has signed,,0.09,Address,0,21
-adres_unieke_wijk_ratio,ontheffing dagen hist mean,Address unique district ratio,Average number of exemption days,"The number of days the welfare recepient has had an exemption from work, divided by the number of reasons for that exemption.",,1.09,Address,0,22
-afspraak_aanmelding_afgesloten,afspraak resultaat ingevuld uniek,Appointment registered closed,Number of appointment writeups with unique results,The number of times the social worker has written a unique result of appointments with the welfare recepient,,0.48,Appointment,0,23
-afspraak_aantal_woorden,beschikbaarheid aantal historie afwijkend wegens medische omstandigheden,appointment number of words,Abnormal avalibility because of medical conditions,The number of times the welfare recepient has had abnormal work avalibility because of a medical condition,,6.92,Appointment,0,24
-afspraak_afgelopen_jaar_afsprakenplan,relatie kind jongvolwassen,appointment last year appointment plan,Number of adult children,,,2.01,Appointment,0,25
-afspraak_afgelopen_jaar_monitoring_insp__wet_taaleis_na_12_mnd_n_a_v__taa04_____geen_maatregel,instrument reden beeindiging historie succesvol,Appointment last year Monitoring Track of Language requirement after 12 months N a V TAA04 No measure,Labor reintegration succuesful,"The number of times the welfare recepient has sucuessfully completed labor market reintegration, such as classes or volunteer work",,2.24,Appointment,0,26
-afspraak_afgelopen_jaar_ontheffing,belemmering dagen psychische problemen,appointment last year exemption,Days with psychological struggles,,,0.21,Appointment,0,27
-afspraak_afgelopen_jaar_ontheffing_taaleis,afspraak laatstejaar aantal woorden,Appointment last year exemption from language requirement,Number of words in appointment writeups last year,The total number of words a social worker has written about appointments with the welfare recepient over the course of last year,,2.79,Appointment,0,28
-afspraak_afgelopen_jaar_plan_van_aanpak,afspraak laatstejaar resultaat ingevuld uniek,Appointment last year plan of action,Number of appointment writeups with unique results last year,The number of times the social worker has written a unique result of appointments with the welfare recepient in the last year,,0.25,Appointment,0,29
-afspraak_afgelopen_jaar_signaal_voor_medewerker,relatie overig historie vorm  andere inwonende,appointment last year signal for employee,Number of roommates,,,1.37,Appointment,0,30
-afspraak_afgelopen_jaar_vervolgmeting_matchbaarheid_werkzoekende_klant,afspraak aantal woorden,Appointment last year Follow -up measurement matchability Job -seeking customer,Number of words written by social worker,,,0.00,Appointment,0,31
-afspraak_afgelopen_jaar_voortgang_aanmelding_en_deelname,contacten soort document  inkomend,Appointment last year Progress Registration and participation,Number of incoming documents,,,0.64,Appointment,0,32
-afspraak_afsprakenplan,afspraak signaal voor medewerker,Appointment Appointment Plan,Number of meetings because of social worker tip,The number of meeings started because a social worker has sent a tip into the department,,0.35,Appointment,0,33
-afspraak_controle_aankondiging_maatregel,ontheffing reden hist tijdelijke ontheffing arbeidsverpl en tegenprestatie,Appointment announce control measure,Number of exemptions from finding temporary work,The number of exempetions the welfare recepient has received from having to find temporary or volunteer work,,3.12,Appointment,0,34
-afspraak_controle_verwijzing,contacten onderwerp documenttype  overeenkomst,Appointment check referral,Number of agreements,"The number of agreements the welfare recepient has made with the municipality, about, for example, finding work",,0.16,Appointment,0,35
-afspraak_deelname_compleet_uit_webapplicatie,adres aantal brp adres,Appointment participation completed from web application,Number of registered addresses,,,0.60,Appointment,0,36
-afspraak_galo_gesprek,contacten onderwerp inkomen,appointment Galo conversation,Number of messages about income,,,0.61,Appointment,0,37
-afspraak_gespr__einde_zoekt___galo_gesprek_,typering dagen som,Appointment Discuss End Looking For Galo Interview,Number of days with assigned customer type,"The number of days the welfare recepeint has had an assigned customer type, such as cleaning or logistics",,1.09,Appointment,0,38
-afspraak_inspanningsperiode,adres aantal verzendadres,Appointment effort period,Number of postal addresses,,,9.36,Appointment,0,39
-afspraak_laatstejaar_aantal_woorden,pla einde uitstroom anders dan volgen onderwijs  regulier werk of als zelfstandige,appointment last year number of words,Back-to-work plan objective is not finding work,Whether the objective of a welfare recepient's back-to-work plan is something other than finding paid work.,,7.29,Appointment,0,40
-afspraak_laatstejaar_resultaat_ingevuld,contacten soort document  uitgaand,Appointment last year result filled in,Number of outgoing documents,,,0.96,Appointment,0,41
-afspraak_laatstejaar_resultaat_ingevuld_uniek,uitstroom verw vlgs km,Appointment last year result filled in unique,Social worker estimate to find work,The amount of time the social worker estimates the welfare recepient will need to find work. 1 is the the highest amount of time and 6 is the lowest,,7.04,Appointment,0,42
-afspraak_other,Taaleis voldaan,Appointment other,Language requirement completed,Whether the welfare recepient has met their Dutch language proficiency requirement,,0.30,Appointment,0,43
-afspraak_participatietrede_vervolgmeting,contacten onderwerp  werk intake,Appointment participation path follow -up measurement,Number of messages about a work intake,,,1.72,Appointment,0,44
-afspraak_resultaat_ingevuld_uniek,contacten soort afgelopenjaar anders,Appointment result filled in unique,Different types of contact with subject 'other' last year,,,8.18,Appointment,0,45
-afspraak_signaal_van_aanbieder,relatie overig historie vorm  gemachtigde,Appointment signal from employer,Number of authorized representatives,"The number of authorized representatives the welfare recepient has had, such as a lawyer.",,1.22,Appointment,0,46
-afspraak_signaal_voor_medewerker,belemmering dagen lichamelijke problematiek,Appointment signal for employee,Days with physical problems,,,6.76,Appointment,0,47
-afspraak_toevoegen_inschrijving_uwvwb,persoonlijke eigenschappen spreektaal,appointment add UWVWB Registration,Spoken language,"The welfare recepient's spoken language. 0 is unknown, 57 is Dutch",,1.08,Appointment,0,48
-afspraak_vervolgmeting_matchbaarheid_werkzoekende_klant,adres recentste buurt groot ijsselmonde,Appointment follow -up measurement matchability jobseeker customer,Neighborhood Groot Ijsselmonde,The welfare recepient lives in the Groot Ijsselmonde neighborhood,,0.83,Appointment,0,49
-afspraak_verzenden_beschikking_i_v_m__niet_voldoen_aan_wet_taaleis,contacten onderwerp overige,Appointment does not comply with the Language requirement,Different types of contact with subject 'other',,,1.26,Appointment,0,50
-afspraak_voortgangsgesprek,contacten onderwerp financi?le situatie,Appointment progress interview,Number of messages about financial situation,,,0.45,Appointment,0,51
-belemmering_aantal_huidig,contacten soort gesprek op locatie,Obstacles current number,Number of messages about an in-person meeting,,,0.49,Obstacle,0,52
-belemmering_dagen_financiele_problemen,afspraak controle aankondiging maatregel,Obstacles Days Financial Problems,Number of messages about a penalty,"The number of messages a welfare recepient has received about a penalty because, for example, they have not found a job fast enough",,9.04,Obstacle,0,53
-belemmering_dagen_lichamelijke_problematiek,relatie overig actueel vorm other,Obstacle Days Physical problems,Number of relationships of type 'other',,,3.94,Obstacle,0,54
-belemmering_dagen_psychische_problemen,relatie overig historie vorm  kostendeler,Obstacle days psychological problems,Number of past costsharers,The number of costshares a welfare recepient has had in the past,,7.33,Obstacle,0,55
-belemmering_financiele_problemen,afspraak afgelopen jaar ontheffing taaleis,Obstacle financial problems,Number of meetings last year about an exemption from Dutch langauge requirement,,,2.08,Obstacle,0,56
-belemmering_hist_lichamelijke_problematiek,contacten onderwerp maatregel overweging,Obtacle Hist physical problems,Number of messages about a considered penalty,"The number of messages the welfare recepient has received about a possible penalty because, for example, they have not found a job fast enough",,0.09,Obstacle,0,57
-belemmering_hist_psychische_problemen,pla einde doelstelling bereikt  nieuw trajectplan,Obstacle Hist Psychological Problems,Back-to-work plan objective reached,The welfare recepient has completed an objective in their back-to-work plan,,0.12,Obstacle,0,58
-belemmering_hist_stabiele_mix__sz____dagbesteding_werk,contacten soort afgelopenjaar e mail  uitgaand,Obstacle Hist Stable Mix of Daytime Activities and Work,Number of outgoing emails last year,,,0.10,Obstacle,0,59
-belemmering_hist_taal,deelname act hist projecten niet gestart,Obstacle HIST LANGUAGE,Has not started back-to-work plan projects,,,0.00,Obstacle,0,60
-belemmering_hist_verslavingsproblematiek,contacten soort telefoontje inkomend,Obstacle Hist addiction problems,Number of incoming phone calls,,,2.22,Obstacle,0,61
-belemmering_ind,contacten soort anders,Obstacle ind,Number of messages with subject 'other',,,0.00,Obstacle,0,62
-belemmering_ind_hist,adres recentste wijk feijenoord,Obstacle ind Hist,District Feijenoord,Lives in the Feijenoord district,,0.73,Obstacle,0,63
-belemmering_niet_computervaardig,adres aantal woonadres handmatig,Obtacle not computer -skilled,Number of home addresses entered manually,Number of addresses that a social worker had to enter manually,,0.00,Obstacle,0,64
-belemmering_psychische_problemen,adres recentste buurt other,Obstacle Psychological problems,Neighborhood other,Lives in neighborhood 'other',,0.28,Obstacle,0,65
-belemmering_woonsituatie,contacten soort telefoontje  uitgaand,Obstacle residential situation,Number of outgoing phone calls,,,0.08,Obstacle,0,66
-beschikbaarheid_aantal_historie_afwijkend_wegens_medische_omstandigheden,gebrek aan plannen en organiseren,availability amount history abnormal due to medical conditions,Lacks skill: planning and organizing,,,8.15,Availability,0,67
-beschikbaarheid_aantal_historie_afwijkend_wegens_sociaal_maatschappelijke_situatie,afspraak afgelopen jaar monitoring insp  wet taaleis na 12 mnd n a v  taa04     geen maatregel,availability history deviating due to social situation,No penalty for failing language requirement,The welfare recepeint hasn't received a penalty despite failing the Dutch langauge requirement,,0.10,Availability,0,68
-beschikbaarheid_huidig_afwijkend_wegens_medische_omstandigheden,Verslavingsproblematiek,Availability current deviation due to medical conditions,Addiction problems,,,0.30,Availability,0,69
-beschikbaarheid_huidig_bekend,contacten soort afgelopenjaar gesprek,Availability current known,Number of messages about an in-person interview,,,0.08,Availability,0,70
-beschikbaarheid_recent_afwijkend_wegens_medische_omstandigheden,belemmering financiele problemen,availability recently deviates due to medical conditions,Struggles financially,,,0.37,Availability,0,71
-beschikbaarheid_recent_afwijkend_wegens_sociaal_maatschappelijke_situatie,contacten soort e mail  inkomend,availability recently deviating due to social situation,Number of incoming emails,,,0.08,Availability,0,72
-competentie_aansturen,afspraak afgelopen jaar afsprakenplan,Competence Control,Number of appointments about making an appointment plan,,,0.69,Skill,0,73
-competentie_analyseren,persoonlijke eigenschappen uitstroom verw vlgs klant,Competence Analyze,Self estimate to find work,The amount of time the welfare recepient estimates they will need to find work. 1 is the the highest amount of time and 6 is the lowest,,1.12,Skill,0,74
-competentie_ethisch_en_integer_handelen,instrument reden beeindiging historie uitval  klant wz  ziet af van aanbod,Competence ethical and honest action,Number of rejected job offers,The number of times the welfare recepient has rejected a job offer,,0.17,Skill,0,75
-competentie_formuleren_en_rapporteren,adres aantal verschillende wijken,Competence Formulate and report,Number of districts,The number of districts the welfare recepient has lived in,,0.21,Skill,0,76
-competentie_gedrevenheid_en_ambitie_tonen,deelname act actueel projecten uniek,Competence drive and ambition,Number of unique projects,,,1.11,Skill,0,77
-competentie_instructies_en_procedures_opvolgen,deelname act reintegratieladder werk re integratie,Skill follow up instructions and procedures,Project work and reintegration,,,0.00,Skill,0,78
-competentie_kwaliteit_leveren,contacten onderwerp inspanningstoets,Compotence delivering quality,Number of messages about the job search effort,Number of messages the welfare recepient has received about their effort at finding a job,,1.27,Skill,0,79
-competentie_leren,contacten onderwerp terugbelverzoek,Skill learning,Number of messages about benefits payback,"Number of messages the welfare recepinet has received about having to payback some of their benefits, because, for example, they have not found a job fast enough",,0.00,Skill,0,80
-competentie_materialen_en_middelen_inzetten,afspraak participatietrede vervolgmeting,Competence uses materials and resources,Number of meetings about a follow up penalty,,,0.28,Skill,0,81
-competentie_met_druk_en_tegenslag_omgaan,contacten onderwerp zorg,Competence with pressure and setbacks,Number of messages health,The number of times the welfare recepient has been contacted about their health,,0.13,Skill,0,82
-competentie_omgaan_met_verandering_en_aanpassen,contacten onderwerp beoordelen taaleis,competence dealing with change and adjustment,Number of messages about Dutch proficiency assessments,The number of times the welfare recepient has been contacted about assess their proficiency in Dutch,,0.00,Skill,0,83
-competentie_onderzoeken,contacten soort e mail  uitgaand,competence research,Number of outgoing emails,,,0.18,Skill,0,84
-competentie_op_de_behoeften_en_verwachtingen_van_de__klant__richten,contacten onderwerp traject,Competence focus on customer needs and expectations,Number of messages about work trajecotry,,,0.56,Skill,0,85
-competentie_other,contacten onderwerp documenten  innemen,Competence Other,,,,0.65,Skill,0,86
-competentie_overtuigen_en_beïnvloeden,contacten soort afgelopenjaar telefoontje  inkomend,Competence convince and influence,Number of incoming phone calls last year,,,0.77,Skill,0,87
-competentie_plannen_en_organiseren,pla hist pla categorie doelstelling 2,Competence Planning and Organizing,Back-to-work plan objective: participation in society,,,2.26,Skill,0,88
-competentie_samenwerken_en_overleggen,adres recentst onderdeel rdam,Competence collaboration and consultation,Lives in Rotterdam city limits,,,0.96,Skill,0,89
-competentie_vakdeskundigheid_toepassen,adres recentste wijk delfshaven,Skill Applying Profesional Expertise,District Delfshaven,Lives in the Delfshaven district,,25.11,Skill,0,90
-contacten_onderwerp__arbeids_motivatie,afspraak afgelopen jaar signaal voor medewerker,Contacts subject work motivation,Number of appointments last year because of a social worker tip,,,0.59,Contact,0,91
-contacten_onderwerp__pre__intake,relatie overig bewindvoerder,Contacts Subject Pre Intake,Number of administrators,"The number of administrators, such as an accountant, the welfare recepient has had",,0.00,Contact,0,92
-contacten_onderwerp__werk_intake,contacten soort afgelopenjaar e mail  inkomend,Contacts Subject Work Intake,Number of incoming emails last year,,,4.09,Contact,0,93
-contacten_onderwerp_arbeidsdiagnose_dariuz,adres recentste wijk prins alexa,Contacts Subject Labor diagnosis Dariuz,District Prins Alexander,Lives in the Prins Alexander district,,0.33,Contact,0,94
-contacten_onderwerp_beoordelen_taaleis,contacten onderwerp mutatie,Contacts topic assessment language requirement,Number of messages about change,,,1.61,Contact,0,95
-contacten_onderwerp_boolean__arbeids_motivatie,contacten soort afgelopenjaar telefoontje  uitgaand,Contacts subject Boolean Labor motivation,Number of outgoing phone calls last year,,,0.00,Contact,0,96
-contacten_onderwerp_boolean__pre__intake,competentie kwaliteit leveren,Contacts Subject Boolean Pre Intake,Lacks skill: delivering quality,,,0.00,Contact,0,97
-contacten_onderwerp_boolean__werk_intake,afspraak verzenden beschikking i v m  niet voldoen aan wet taaleis,Contacts Subject Boolean Work Intake,Number of appointments about not complying with Dutch langauge requirement,,,0.00,Contact,0,98
-contacten_onderwerp_boolean_beoordelen_taaleis,afspraak signaal van aanbieder,Contacts subject Boolean assess Language Requirement,Number of appointments because of an employer tip,,,0.00,Contact,0,99
-contacten_onderwerp_boolean_contact_derden,pla einde doelstelling niet bereikt  nieuw trajectplan,Contacts Subject Boolean Contact third parties,Back-to-work plan: has not achieved objective,The number of times the welfare recepient has not achieved an objective in their back-to-work plan,,0.00,Contact,0,100
-contacten_onderwerp_boolean_contact_met_aanbieder,deelname act reintegratieladder ondersteunende instrumenten,Contacts Subject Boolean Contact with Employer,,,,0.00,Contact,0,101
-contacten_onderwerp_boolean_diagnosegesprek,competentie analyseren,Contacts Subject Boolean Diagnose interview,Lacks skill: analyzing,,,0.00,Contact,0,102
-contacten_onderwerp_boolean_documenten__innemen_,competentie gedrevenheid en ambitie tonen,Contact subject Boolean documents,Lacks skill: drive and ambition,,,0.00,Contact,0,103
-contacten_onderwerp_boolean_documenttype__cv_,contacten onderwerp uitnodiging,Contacts Subject Boolean Document Type CV,,,,0.00,Contact,0,104
-contacten_onderwerp_boolean_documenttype__diploma_s_en_certificaten_,relatie partner huidige partner   partner  gehuwd,Contacts Subject Boolean Document Type Diplomas and certificates,Currently has a partner,,,0.70,Contact,0,105
-contacten_onderwerp_boolean_documenttype__overeenkomst_,adres recentste wijk charlois,Contacts Subject Boolean Document Type Agreement,District Charlois,Lives in the Charlois district,,0.00,Contact,0,106
-contacten_onderwerp_boolean_financiële_situatie,afspraak gespr einde zoekt Galo gesprek,Contacts Subject Boolean Financial Situation,,,,0.00,Contact,0,107
-contacten_onderwerp_boolean_groepsbijeenkomst,pla hist pla categorie doelstelling 3,Contacts Subject Boolean Group meeting,,,,0.00,Contact,0,108
-contacten_onderwerp_boolean_inkomen,adres unieke wijk ratio,Contacts Subject Boolean Income,,,,0.00,Contact,0,109
-contacten_onderwerp_boolean_maatregel_overweging,afspraak toevoegen inschrijving uwvwb,Contacts Subject Boolean Measure consideration,,,,0.00,Contact,0,110
-contacten_onderwerp_boolean_match___werk,contacten soort afgelopenjaar document  inkomend,Contacts Subject Boolean Match Work,,,,0.10,Contact,0,111
-contacten_onderwerp_boolean_matching,relatie kind tiener,Contacts Subject Boolean Matching,,,,0.00,Contact,0,112
-contacten_onderwerp_boolean_motivatie,contacten onderwerp matching,Contacts Subject Boolean Motivation,,,,0.53,Contact,0,113
-contacten_onderwerp_boolean_mutatie,adres recentste wijk noord,Contacts Subject Boolean mutation,,,,0.00,Contact,0,114
-contacten_onderwerp_boolean_no_show,ontheffing actueel ind,Contacts Subject Boolean No Show,,,,0.00,Contact,0,115
-contacten_onderwerp_boolean_overige,contacten soort rapportage rib,Contacts Subject Boolean Other,,,,0.00,Contact,0,116
-contacten_onderwerp_boolean_overleg_met_inkomen,persoonlijke eigenschappen opstelling,Contacts Subject Boolean Consultation with Income,,,,0.00,Contact,0,117
-contacten_onderwerp_boolean_scholing,competentie samenwerken en overleggen,Contacts Subject Boolean Training,,,,0.00,Contact,0,118
-contacten_onderwerp_boolean_sollicitatie,afspraak laatstejaar resultaat ingevuld,Contacts Subject Boolean Application,,,,0.00,Contact,0,119
-contacten_onderwerp_boolean_taaleis___voldoet,adres recentste wijk other,Contacts Subject Boolean Language requirement satisfactory,,The customer has been contacted about sucuessfully meeting their Dutch language requirement,,0.00,Contact,0,120
-contacten_onderwerp_boolean_terugbelverzoek,contacten onderwerp groepsbijeenkomst,Contacts Subject Boolean recelples request,,,,0.00,Contact,0,121
-contacten_onderwerp_boolean_traject,afspraak vervolgmeting matchbaarheid werkzoekende klant,Contacts Subject Boolean process,,,,0.00,Contact,0,122
-contacten_onderwerp_boolean_uitnodiging,competentie overtuigen en be?nvloeden,Contacts Subject Boolean Invitation,,,,0.00,Contact,0,123
-contacten_onderwerp_boolean_ziek__of_afmelding,contacten onderwerp contact met aanbieder,Contacts subject Boolean sick or cancellation,,,,0.00,Contact,0,124
-contacten_onderwerp_boolean_zorg,belemmering ind hist,Contacts Subject Boolean care,,,,0.00,Contact,0,125
-contacten_onderwerp_contact_derden,pla hist pla categorie doelstelling 10,Contacts Subject contact third parties,,,,0.52,Contact,0,126
-contacten_onderwerp_contact_met_aanbieder,pla hist pla categorie doelstelling 5,Contacts Subject contact with employer,,Contact with subject about employer.,,0.74,Contact,0,127
-contacten_onderwerp_diagnosegesprek,contacten onderwerp boolean documenttype  diploma s en certificaten,Contacts Subject Diagnostic interview,,,,0.42,Contact,0,128
-contacten_onderwerp_documenten__innemen_,contacten onderwerp quickscan,Contacts topic documents,,,,1.58,Contact,0,129
-contacten_onderwerp_documenttype__cv_,competentie aansturen,Contacts Subject Document Type CV,,,,0.47,Contact,0,130
-contacten_onderwerp_documenttype__overeenkomst_,contacten soort rapportage deelname,Contacts Subject Document Type Agreement,,,,6.41,Contact,0,131
-contacten_onderwerp_financiële_situatie,pla hist pla categorie doelstelling other,Contacts Subject Finance Situation,,,,3.32,Contact,0,132
-contacten_onderwerp_groepsbijeenkomst,competentie other,Contacts Subject group meeting,,,,0.88,Contact,0,133
-contacten_onderwerp_inkomen,ontheffing reden hist other,Contacts Subject Income,,Contacted about income,,5.29,Contact,0,134
-contacten_onderwerp_inname_aanvraag,instrument reden beeindiging historie niet succesvol,Contacts Subject intake request,,,,0.00,Contact,0,135
-contacten_onderwerp_inspanningstoets,afspraak afgelopen jaar voortgang aanmelding en deelname,Contacts Subject Effort Test,,"The client has been contacted about an effort test, where they must prove that they have been trying to find a job. ",,1.78,Contact,0,136
-contacten_onderwerp_maatregel_overweging,persoonlijke eigenschappen hobbies sport,Contacts Subject Measure consideration,,"Whether the customer has been contacted because the municipality is considering a measure (e.g. a fine, cut to benefits) ",,2.68,Contact,0,137
-contacten_onderwerp_matching,pla ondertekeningen actueel,Contacts Subject matching,,,,1.02,Contact,0,138
-contacten_onderwerp_mutatie,afspraak galo gesprek,Contacts Subject Change,,,,1.29,Contact,0,139
-contacten_onderwerp_no_show,pla hist pla categorie doelstelling 1,Contact subject no show,,Contact subject client has not shown up for meeting,,27.87,Contact,0,140
-contacten_onderwerp_overige,afspraak deelname compleet uit webapplicatie,Contacts Subject Other,,,,3.49,Contact,0,141
-contacten_onderwerp_overleg_met_inkomen,pla hist pla categorie doelstelling 9,Contact subject consultation about income,,Contact subject consultation about client's income.,,24.10,Contact,0,142
-contacten_onderwerp_quickscan,instrument ladder huidig other,Contacts Subject Quickscan,,,,0.70,Contact,0,143
-contacten_onderwerp_scholing,instrument aantal laatstejaar,Contacts Subject training,,Customer has been contacted because of a (work) training.,,0.57,Contact,0,144
-contacten_onderwerp_screening,contacten onderwerp  arbeids motivatie,Contacts Subject screening,,,,0.41,Contact,0,145
-contacten_onderwerp_terugbelverzoek,pla historie other,Contacts Subject recovery request,,The client has been contacted to pay back benefits payments.,,1.75,Contact,0,146
-contacten_onderwerp_traject,pla hist pla categorie doelstelling 11,Contacts Subject process,,,,1.59,Contact,0,147
-contacten_onderwerp_uitnodiging,contacten onderwerp scholing,Contacts Subject Invitation,,,,1.11,Contact,0,148
-contacten_onderwerp_vakantie,instrument ladder historie other,Contacts Subject holiday,,,,0.09,Contact,0,149
-contacten_onderwerp_werkintake__niet_verschenen,adres recentste plaats rotterdam,Contacts subject work intake did not appear,,The customer has been contacted because they did not appear at their work intake.,,0.30,Contact,0,150
-contacten_onderwerp_ziek__of_afmelding,competentie op de behoeften en verwachtingen van de  klant  richten,Contacts subject Sick or cancellation,,,,0.52,Contact,0,151
-contacten_onderwerp_zorg,pla einde doelstelling bereikt,Contacts subject care,,,,1.64,Contact,0,152
-contacten_soort_afgelopenjaar_anders,instrument reden beeindiging historie doelstelling niet bereikt  geen uitstroom,Contacts different kinds of contact last year,,The number of different kinds of contact in the last year.,,4.02,Contact,0,153
-contacten_soort_afgelopenjaar_document__inkomend_,persoonlijke eigenschappen houding opm,Contacts Type Last year Document Incoming,,,,1.07,Contact,0,154
-contacten_soort_afgelopenjaar_document__uitgaand_,pla hist pla categorie doelstelling 4,Contact type last year outgoing documents,,Number of outgoing documents last year.,,15.41,Contact,0,155
-contacten_soort_afgelopenjaar_e_mail__inkomend_,contacten onderwerp boolean motivatie,Contacts Type Last year E -mail Incoming,,,,1.33,Contact,0,156
-contacten_soort_afgelopenjaar_e_mail__uitgaand_,contacten onderwerp ziek  of afmelding,Contacts type last year e -mail outgoing,,,,2.55,Contact,0,157
-contacten_soort_afgelopenjaar_gesprek,contacten onderwerp contact derden,Contacts Type last year interview,,,,2.13,Contact,0,158
-contacten_soort_afgelopenjaar_gesprek_op_locatie,pla einde doelstelling niet bereikt,Contacts Type of Past year Conversation on location,,In the past year the customer has been contacted about an appointment on site.,,0.36,Contact,0,159
-contacten_soort_afgelopenjaar_rapportage_rib,instrument reden beeindiging historie centrale actie wigo4it,Contacts Type Last year Reporting RIB,,,,0.35,Contact,0,160
-contacten_soort_afgelopenjaar_telefoontje__inkomend_,belemmering aantal huidig,Contacts Type last year Incoming,,,,1.46,Contact,0,161
-contacten_soort_afgelopenjaar_telefoontje__uitgaand_,pla actueel pla categorie doelstelling 9,Contacts Type Last year phone call outgoing,,,,1.27,Contact,0,162
-contacten_soort_anders,afspraak aanmelding afgesloten,Contacts type different,,Total number of different types of contact with the customer.,,2.40,Contact,0,163
-contacten_soort_document__inkomend_,contacten soort groepsbijeenkomsten,Contacts type document incoming,,Number of incoming documents,,6.79,Contact,0,164
-contacten_soort_document__uitgaand_,contacten onderwerp documenttype  cv,Contacts Type of document outgoing,,Total number of outgoing documents,,4.43,Contact,0,165
-contacten_soort_e_mail__inkomend_,adres recentste buurt vreewijk,Contacts type e -mail incoming,,,,2.05,Contact,0,166
-contacten_soort_e_mail__uitgaand_,persoonlijke eigenschappen motivatie opm,Contacts type e -mail outgoing,,,,1.60,Contact,0,167
-contacten_soort_gesprek_op_locatie,relatie partner aantal partner   partner  ongehuwd,Contacts Type conversation on location,,Whether the customer has ever been invited to a conversation at the physical benefits departmnet.,,3.26,Contact,0,168
-contacten_soort_groepsbijeenkomsten,afspraak voortgangsgesprek,Contacts Type Group meetings,,Customer has been contacted about a group meeting with other people who receive benefits.,,0.47,Contact,0,169
-contacten_soort_rapportage_deelname,relatie overig historie vorm  onderhoudsplichtige,Contacts Type Report Participation,,,,0.68,Contact,0,170
-contacten_soort_rapportage_rib,persoonlijke eigenschappen nl spreken3,Contacts Type RIB Report,,Contact type council information.,,0.98,Contact,0,171
-contacten_soort_telefoontje__inkomend_,pla historie maatschappelijke inspanning,Contacts Type of phone call Incoming,,,,2.50,Contact,0,172
-contacten_soort_telefoontje__uitgaand_,contacten onderwerp diagnosegesprek,Contacts Type of phone call outgoing,,,,2.27,Contact,0,173
-deelname_act_actueel_projecten_uniek,contacten onderwerp screening,Participation Act Current Projects Unique,,,,1.81,Participation Act,0,174
-deelname_act_hist_projecten_niet_gestart,persoonlijke eigenschappen uiterlijke verzorging opm,Participation ACT HIST projects not started,,,,2.54,Participation Act,0,175
-deelname_act_reintegratieladder_ondersteunende_instrumenten,ontheffing reden tijdelijke ontheffing arbeidsverpl  en tegenprestatie,Participation Act Reintegration Ladder Supporting Instruments,,The client has supporting instruments to enter job market.,,1.15,Participation Act,0,176
-deelname_act_reintegratieladder_werk_re_integratie,beschikbaarheid recent afwijkend wegens medische omstandigheden,Participation Act Reintegration Ladder Work Re Integration,,,,1.78,Participation Act,0,177
-instrument_aantal_laatstejaar,instrument reden beeindiging historie uitval  aanbod niet langer zinvol volgens gemeente,instrument number last year,,The number of supporting 'instruments' (e.g. Dutch lessons) from last year.,,0.60,instrument ladder,0,178
-instrument_ladder_historie_activering,contacten soort afgelopenjaar gesprek op locatie,Instrument ladder history activation,,Social activation in reintegration ladder history.,,10.76,Instrument ladder,0,179
-instrument_ladder_historie_other,contacten soort afgelopenjaar rapportage rib,Instrument Ladder History Other,,,,0.57,instrument ladder,0,180
-instrument_ladder_huidig_activering,afspraak afsprakenplan,Instrument Ladder Current activation,,instrument ladder is currently activated.,,17.50,Instrument ladder,0,181
-instrument_ladder_huidig_other,contacten onderwerp arbeidsdiagnose dariuz,Instrument Ladder Current Other,,,,0.60,instrument ladder,0,182
-instrument_ladder_huidig_werk_re_integratie,relatie kind volwassen,Instrument Ladder Current Work Re Integration,,The customer has work reintegration as part of their current insturment ladder.,,0.13,instrument ladder,0,183
-instrument_reden_beeindiging_historie_centrale_actie_wigo4it,instrument reden beeindiging historie overdracht succesvol,Instrument Reason Understanding History Central Action Wigo4it,,,,0.50,instrument ladder,0,184
-instrument_reden_beeindiging_historie_diagnose_gesteld,persoonlijke eigenschappen nl begrijpen3,instrument reasoning termination history diagnosis set,,,,0.00,instrument ladder,0,185
-instrument_reden_beeindiging_historie_direct_matchbaar,persoonlijke eigenschappen nl schrijvenfalse,instrument termination history directly matchable,,,,0.09,instrument ladder,0,186
-instrument_reden_beeindiging_historie_doelstelling_bereikt__geen_uitstroom,persoonlijke eigenschappen overige opmerkingen,Instrument terminated does not achieve reintegration,,instrument is terminated because the customer does not acheive reintegration into the workforce.,,0.20,instrument ladder,0,187
-instrument_reden_beeindiging_historie_doelstelling_bereikt__uitstroom_naar_regulier_werk,beschikbaarheid huidig afwijkend wegens medische omstandigheden,Instrument Reason for termination History objective achieves outflow to regular work,,The customer's insturment ladder is terminated because they have found regular work.,,0.00,instrument ladder,0,188
-instrument_reden_beeindiging_historie_doelstelling_bereikt__uitstroom_overig,contacten onderwerp werkintake  niet verschenen,Instrument Reason Understanding History Objective achieves outflow Other,,,,0.00,instrument ladder,0,189
-instrument_reden_beeindiging_historie_doelstelling_niet_bereikt__geen_uitstroom,afspraak other,instrument reason Under termination History objective does not reach reintegration,,,,0.54,instrument ladder,0,190
-instrument_reden_beeindiging_historie_niet_matchbaar,instrument reden beeindiging historie overdracht naar mo,instrument reason termination history not matchable,,,,0.00,instrument ladder,0,191
-instrument_reden_beeindiging_historie_niet_succesvol,competentie materialen en middelen inzetten,instrument reason termination history not successful,,The customer has failed to acheive their insturment ladder.,,0.65,instrument ladder,0,192
-instrument_reden_beeindiging_historie_niet_succesvol__reden_bij_werkzoekende,ontheffing hist ind,Instrument Reason Understanding History not successful reason for job seekers,,,,0.00,instrument ladder,0,193
-instrument_reden_beeindiging_historie_op_termijn_matchbaar,adres recentste wijk kralingen c,Instrument Reason termination History in the long term,,,,0.17,instrument ladder,0,194
-instrument_reden_beeindiging_historie_other,pla einde geplande einddatum overschreden zonder nader bericht,Instrument Reason termination History Other,,,,0.23,instrument ladder,0,195
-instrument_reden_beeindiging_historie_overdracht_naar_mo,belemmering psychische problemen,Instrument Reason termination History Transfer to MO,,,,0.28,instrument ladder,0,196
-instrument_reden_beeindiging_historie_overdracht_naar_prematching,typering hist aantal,Instrument Reason termination History Transfer to Prematching,,,,0.00,instrument ladder,0,197
-instrument_reden_beeindiging_historie_overdracht_naar_regulier_team_iwpm,persoonlijke eigenschappen leergierigheid opm,Instrument Reason termination History Transfer to regular team IWPM,,,,0.20,instrument ladder,0,198
-instrument_reden_beeindiging_historie_overdracht_succesvol,pla einde other,Instrument Reason termination History Transfer Successful,,The instrument can be terminated because the client has sucuessfully transfered to the next step.,,0.31,instrument ladder,0,199
-instrument_reden_beeindiging_historie_succesvol,afspraak afgelopen jaar plan van aanpak,instrument ladder reason termination reason sucuessful,,The customer has sucuessfuly moved up their insturment ladder.,,7.38,instrument ladder,0,200
-instrument_reden_beeindiging_historie_succesvol__doelstelling_bereikt,relatie overig actueel vorm  ouders verzorgers,Instrument Reason History Successful Objective achieved,,,,0.08,instrument ladder,0,201
-instrument_reden_beeindiging_historie_uitval__aanbod_niet_langer_zinvol_volgens_gemeente,persoonlijke eigenschappen taaleis schrijfv ok,Instrument Reason Under termination History offer no longer useful according to the municipality,,,,0.36,instrument ladder,0,202
-instrument_reden_beeindiging_historie_uitval__klant_wz__ziet_af_van_aanbod,instrument reden beeindiging historie other,Instrument Termination Reason History Customer Declines Job Offer,,The client's trajectory plan is cancelled because they have declined a job offer.,,1.90,Personal qualities,0,203
-ontheffing_actueel_ind,ontheffing reden hist sociale gronden,Exemption current,,Client currently exempt from reintegration.,,1.00,Exemption,0,204
-ontheffing_dagen_hist_mean,typering other,Exemption days history mean,,The mean number of exemption days.,,8.68,Exemption,0,205
-ontheffing_dagen_hist_vanwege_uw_medische_omstandigheden,afspraak afgelopen jaar ontheffing,Exemption day history because of your medical conditions,,Number of exemption days in history because of medical conditions.,,13.82,Exemption,0,206
-ontheffing_hist_ind,competentie formuleren en rapporteren,Exemption in history,,There is an exemption from reintegration in the client history.,,0.28,Exemption,0,207
-ontheffing_reden_hist_medische_gronden,pla historie werk,Exemption Reason Hist Medical Grounds,,,,0.00,Exemption,0,208
-ontheffing_reden_hist_other,instrument reden beeindiging historie overdracht naar regulier team iwpm,Exemption Reason Hist Other,,,,0.65,Exemption,0,209
-ontheffing_reden_hist_sociale_gronden,persoonlijke eigenschappen initiatief opm,Exemption reason history social grounds,,The customer has been exempt from the work requirement because of social reasons.,,0.22,Exemption,0,210
-ontheffing_reden_hist_tijdelijke_ontheffing_arbeidsverpl__en_tegenprestatie,pla hist pla categorie doelstelling 27,Exemption reason history temporary exemption work and obligation,,Client has a temporary exemption from work and participation obligation in their work history.,,6.64,Exemption,0,211
-ontheffing_reden_hist_tijdelijke_ontheffing_arbeidsverplichtingen,relatie kind basisschool kind,Exemption reason Hist temporary exemption for labor obligations,,,,0.00,Exemption,0,212
-ontheffing_reden_hist_vanwege_uw_sociaal_maatschappelijke_situatie,instrument reden beeindiging historie doelstelling bereikt  geen uitstroom,Exemption history because of your social situation,,The customer has previously been exempt from the work requirement because of their social situation.,,0.11,Exemption,0,213
-ontheffing_reden_tijdelijke_ontheffing_arbeidsverpl__en_tegenprestatie,typering transport  logistiek   tuinbouw,Exemption temporary exemption from work obligation and requirement,,The customer has recevied an exemption from the work obligation and participation requirement.,,0.37,Exemption,0,214
-persoon_geslacht_vrouw,persoonlijke eigenschappen nl spreken1,person gender woman,,Customer is a woman,,9.90,Person,0,215
-persoon_leeftijd_bij_onderzoek,competentie onderzoeken,Person Age During Investigation,,,,100.00,Person,0,216
-persoonlijke_eigenschappen_communicatie_opm,instrument reden beeindiging historie op termijn matchbaar,Personal characteristics communication,,,,0.11,Personal qualities,0,217
-persoonlijke_eigenschappen_dagen_sinds_opvoer,competentie ethisch en integer handelen,Personal qualities days since last updated,,Days since personal qualities attributes were updated.,,14.93,Personal qualities,0,218
-persoonlijke_eigenschappen_dagen_sinds_taaleis,afspraak controle verwijzing,Personal qualities days since language requirement,,The number of days since the customer sucuessfuly completed their language requirement.,,15.15,Personal qualities,0,219
-persoonlijke_eigenschappen_doorzettingsvermogen_opm,persoonlijke eigenschappen nl spreken2,Personal characteristics perseverance,,,,0.12,Personal qualities,0,220
-persoonlijke_eigenschappen_flexibiliteit_opm,persoonlijke eigenschappen presentatie opm,Personal characteristics flexibility,,,,0.00,Personal qualities,0,221
-persoonlijke_eigenschappen_hobbies_sport,persoonlijke eigenschappen nl schrijven0,Personal qualities Hobbies or Sport,,Whether the customer has any hobbies and/or plays any sports.,,0.62,Personal qualities,0,222
-persoonlijke_eigenschappen_houding_opm,persoonlijke eigenschappen ind regulier arbeidsritme,Personal qualities attitude remark,,"Whether the customer has a remark or comment from the social workerin the ""attitude"" field. ",,0.54,Personal qualities,0,223
-persoonlijke_eigenschappen_ind_activering_traject,pla actueel pla categorie doelstelling 16,Personal characteristics in activation process,,Personal characteristics are included in the social activation trajectory,,0.13,Personal qualities,0,224
-persoonlijke_eigenschappen_ind_buiten_kantoortijden,persoonlijke eigenschappen ind activering traject,Personal properties IND outside office hours,,,,0.00,Personal qualities,0,225
-persoonlijke_eigenschappen_ind_regulier_arbeidsritme,instrument ladder huidig werk re integratie,Personal characteristics in regular labor rhythm,,,,0.14,Personal qualities,0,226
-persoonlijke_eigenschappen_initiatief_opm,competentie met druk en tegenslag omgaan,Personal qualities initiative,,,,0.20,Personal qualities,0,227
-persoonlijke_eigenschappen_leergierigheid_opm,persoonlijke eigenschappen doorzettingsvermogen opm,Personal qualities inquisitiveness,,,,0.27,Personal qualities,0,228
-persoonlijke_eigenschappen_motivatie_opm,belemmering hist psychische problemen,Personal qualities Motivation remark,,There is a comment or remark in the motivation field of the customer's personal qualities,,0.46,Personal qualities,0,229
-persoonlijke_eigenschappen_nl_begrijpen3,persoonlijke eigenschappen communicatie opm,Personal qualities NL understanding 3,,,,0.31,Personal qualities,0,230
-persoonlijke_eigenschappen_nl_lezen3,persoonlijke eigenschappen spreektaal anders,Personal qualities NL read 3,,,,0.00,Personal qualities,0,231
-persoonlijke_eigenschappen_nl_lezen4,ontheffing reden hist vanwege uw sociaal maatschappelijke situatie,Personal qualities NL Read 4,,,,0.00,Personal qualities,0,232
-persoonlijke_eigenschappen_nl_schrijven0,persoonlijke eigenschappen nl schrijven2,Personal qualities NL Write 0,,,,0.14,Personal qualities,0,233
-persoonlijke_eigenschappen_nl_schrijven1,pla einde doelstelling bereikt  overdracht,Personal qualities NL Write 1,,,,0.00,Personal qualities,0,234
-persoonlijke_eigenschappen_nl_schrijven2,contacten onderwerp boolean match   werk,Personal qualities NL Write 2,,,,0.11,Personal qualities,0,235
-persoonlijke_eigenschappen_nl_schrijven3,relatie partner aantal partner   partner  gehuwd,Personal qualities NL Write 3,,,,0.00,Personal qualities,0,236
-persoonlijke_eigenschappen_nl_schrijvenfalse,beschikbaarheid aantal historie afwijkend wegens sociaal maatschappelijke situatie,Personal qualities NL writing false,,The customer does not have Dutch writing skills.,,0.30,Personal qualities,0,237
-persoonlijke_eigenschappen_nl_spreken1,belemmering hist stabiele mix  sz    dagbesteding werk,Personal characteristics NL speaking 1,,,,0.18,Personal qualities,0,238
-persoonlijke_eigenschappen_nl_spreken2,belemmering hist lichamelijke problematiek,Personal characteristics NL speak2,,,,0.16,Personal qualities,0,239
-persoonlijke_eigenschappen_nl_spreken3,adres recentste wijk ijsselmonde,Personal qualities NL speaking 3,,,,0.44,Personal qualities,0,240
-persoonlijke_eigenschappen_opstelling,instrument reden beeindiging historie direct matchbaar,Personal characteristics disposition remark,,"Has a comment in the ""disposition"" field from the social worker.",,0.98,Personal qualities,0,241
-persoonlijke_eigenschappen_overige_opmerkingen,typering indicatie geheime gegevens,Personal qualities Other comments,,The customer contains a comment in the 'other' field of their personal qualities.,,0.30,Personal qualities,0,242
-persoonlijke_eigenschappen_presentatie_opm,adres recentste wijk stadscentru,Personal characteristics presentation,,,,0.15,Personal qualities,0,243
-persoonlijke_eigenschappen_spreektaal,contacten onderwerp vakantie,Personal qualities language,,The language the customer speaks.,,3.84,Personal qualities,0,244
-persoonlijke_eigenschappen_spreektaal_anders,instrument reden beeindiging historie succesvol  doelstelling bereikt,Personal characteristics language other,,The customer speaks a language other than Dutch.,,0.11,Personal qualities,0,245
-persoonlijke_eigenschappen_taaleis_schrijfv_ok,pla hist pla categorie doelstelling 6,Personal qualities Language requirement write ok,,The customer has met the writing portion of their Dutch language requirement.,,0.23,Personal qualities,0,246
-persoonlijke_eigenschappen_taaleis_voldaan,relatie overig actueel vorm  onderhoudsplichtige,Personal qualities Language requirement satisfied,,Language requirement satisfied.,,4.18,Personal qualities,0,247
-persoonlijke_eigenschappen_uiterlijke_verzorging_opm,belemmering woonsituatie,Personal characteristics external care remark,,The customer has a comment / remark in their external apperance field.,,0.39,Personal qualities,0,248
-persoonlijke_eigenschappen_uitstroom_verw_vlgs_klant,beschikbaarheid recent afwijkend wegens sociaal maatschappelijke situatie,Personal characteristics client's estimate of time before reintegration,,The client's estimate of how much time they think they need to reintegrate into the labor market.,,1.94,Personal qualities,0,249
-persoonlijke_eigenschappen_uitstroom_verw_vlgs_km,beschikbaarheid huidig bekend,Personal characteristics caseworker estimate of time before reintegration,,The amount of time the case worker thinks they will need before finding work.,,4.25,Personal qualities,0,250
-persoonlijke_eigenschappen_zelfstandigheid_opm,typering aantal,Personal characteristics independence,,,,0.00,Personal qualities,0,251
-pla_actueel_pla_categorie_doelstelling_16,adres recentste buurt nieuwe westen,PLA Current PLA Category objective 16,,,,0.14,Action Plan,0,252
-pla_actueel_pla_categorie_doelstelling_9,adres recentste buurt oude noorden,PLA Current PLA Category Objective 9,,,,0.48,Action Plan,0,253
-pla_einde_doelstelling_bereikt,adres recentste plaats other,PLA End of objective reached,,Whether the customer has reached one of the objectives in their action plan.,,0.54,Action Plan,0,254
-pla_einde_doelstelling_bereikt__nieuw_trajectplan,afspraak afgelopen jaar vervolgmeting matchbaarheid werkzoekende klant,PLA End of objective reaches new trajectory plan,,Objective completed in Action Plan and reach new trajectory plan.,,2.56,Action Plan,0,255
-pla_einde_doelstelling_bereikt__overdracht,belemmering hist taal,PLA End of objective reaches transfer,,Customer completes an objective in the action plan and transfers to a new stage.,,0.10,Action Plan,0,256
-pla_einde_doelstelling_niet_bereikt,belemmering ind,PLA End objective not achieved,,,,0.51,Action Plan,0,257
-pla_einde_doelstelling_niet_bereikt__nieuw_trajectplan,belemmering niet computervaardig,PLA objective not achieved new route plan,,Client has not acheived objective of new trajectory plan,,1.17,Action Plan,0,258
-pla_einde_doelstelling_niet_bereikt__overdracht,competentie instructies en procedures opvolgen,PLA End of objective not reached transfer,,,,0.00,Action Plan,0,259
-pla_einde_geplande_einddatum_overschreden_zonder_nader_bericht,competentie leren,PLA End of planned end date exceeded without further notice,,The planned end date of the action plan has been exceded without notice.,,0.28,Action Plan,0,260
-pla_einde_other,competentie omgaan met verandering en aanpassen,pla end other,,The action plan has ended for an 'other' reason,,0.26,Action Plan,0,261
-pla_einde_uitstroom_anders_dan_volgen_onderwijs__regulier_werk_of_als_zelfstandige,contacten onderwerp  pre  intake,pla result other than follow education regular work or as a self -employed person,,Result of customers Action Plan is something other than employed work or being self-employed,,4.66,Action Plan,0,262
-pla_hist_pla_categorie_doelstelling_1,contacten onderwerp boolean  arbeids motivatie,PLA HIST PLA Category Objective 1,,,,0.61,Action Plan,0,263
-pla_hist_pla_categorie_doelstelling_10,contacten onderwerp boolean  pre  intake,PLA HIST PLA Category Objective 10,,,,0.72,Action Plan,0,264
-pla_hist_pla_categorie_doelstelling_11,contacten onderwerp boolean  werk intake,PLA HIST PLA Category Objective 11,,,,0.57,Action Plan,0,265
-pla_hist_pla_categorie_doelstelling_16,contacten onderwerp boolean beoordelen taaleis,PLA HIST PLA Category Objective 16,,,,11.93,Action Plan,0,266
-pla_hist_pla_categorie_doelstelling_2,contacten onderwerp boolean contact derden,PLA HIST PLA Category Objective 2,,,,1.45,Action Plan,0,267
-pla_hist_pla_categorie_doelstelling_27,contacten onderwerp boolean contact met aanbieder,PLA HIST PLA Category Objective 27,,,,0.20,Action Plan,0,268
-pla_hist_pla_categorie_doelstelling_3,contacten onderwerp boolean diagnosegesprek,PLA HIST PLA Category Objective 3,,,,1.09,Action Plan,0,269
-pla_hist_pla_categorie_doelstelling_4,contacten onderwerp boolean documenten  innemen,PLA HIST PLA Category Objective 4,,,,0.54,Action Plan,0,270
-pla_hist_pla_categorie_doelstelling_5,contacten onderwerp boolean documenttype  cv,PLA HIST PLA Category Objective 5,,,,0.72,Action Plan,0,271
-pla_hist_pla_categorie_doelstelling_6,contacten onderwerp boolean documenttype  overeenkomst,PLA HIST PLA Category Objective 6,,,,0.08,Action Plan,0,272
-pla_hist_pla_categorie_doelstelling_9,contacten onderwerp boolean financi?le situatie,PLA HIST PLA Category Objective 9,,,,0.60,Action Plan,0,273
-pla_hist_pla_categorie_doelstelling_other,contacten onderwerp boolean groepsbijeenkomst,PLA HIST PLA Category Objective Other,,,,0.68,Action Plan,0,274
-pla_historie_maatschappelijke_inspanning,contacten onderwerp boolean inkomen,PLA History Social Exercise,,Social effort included in history of action plan.,,0.43,Action Plan,0,275
-pla_historie_ontwikkeling,contacten onderwerp boolean maatregel overweging,PLA History Development,,Personal / profesional development in action plan,,19.11,Action Plan,0,276
-pla_historie_other,contacten onderwerp boolean matching,Pla history other,,Other' filed in for action plan,,0.58,Action Plan,0,277
-pla_historie_werk,contacten onderwerp boolean mutatie,PLA History Work,,Action plan history contains work,,0.21,Action Plan,0,278
-pla_historie_werk_en_inburgering,contacten onderwerp boolean no show,PLA History Work and Integration,,Work and integration in Action Plan history,,0.00,Action Plan,0,279
-pla_ondertekeningen_actueel,contacten onderwerp boolean overige,PLA currently signed,,The action plan is currently signed.,,0.62,Action Plan,0,280
-pla_ondertekeningen_historie,contacten onderwerp boolean overleg met inkomen,PLA signed in history,,An action plan has been signed.,,8.96,Action Plan,0,281
-relatie_kind_basisschool_kind,contacten onderwerp boolean scholing,relationship child primary school child,,,,0.20,Relationship,0,282
-relatie_kind_heeft_kinderen,contacten onderwerp boolean sollicitatie,relationship child has children,,The customer has children.,,0.00,Relationship,0,283
-relatie_kind_huidige_aantal,contacten onderwerp boolean taaleis   voldoet,Relationship child current number,,Current number of children.,,10.85,Relationship,0,284
-relatie_kind_jongvolwassen,contacten onderwerp boolean terugbelverzoek,relationship child young adult,,Child who is a young adult,,7.99,Relationship,0,285
-relatie_kind_leeftijd_verschil_ouder_eerste_kind,contacten onderwerp boolean traject,relationship child age difference parent first child,,Age difference between parent and first child,,11.17,Relationship,0,286
-relatie_kind_tiener,contacten onderwerp boolean uitnodiging,relationship child teen,,,,1.03,Relationship,0,287
-relatie_kind_volwassen,contacten onderwerp boolean ziek  of afmelding,relationship child adult,,,,0.32,Relationship,0,288
-relatie_overig_actueel_vorm__gemachtigde,contacten onderwerp boolean zorg,Relationship Other Current Form authorized representative,,,,0.00,Relationship,0,289
-relatie_overig_actueel_vorm__kostendeler,contacten onderwerp inname aanvraag,Relationship Other Current Number Costsharer,,Number of current relationships of type costsharer,,35.49,Relationship,0,290
-relatie_overig_actueel_vorm__onderhoudsplichtige,instrument reden beeindiging historie diagnose gesteld,Relationship Other Current Form maintenance person,,,,0.08,Relationship,0,291
-relatie_overig_actueel_vorm__ouders_verzorgers,instrument reden beeindiging historie doelstelling bereikt  uitstroom naar regulier werk,Relationship Other Current Form Parents Carers,,The customer has parents who are caring for them.,,0.24,Relationship,0,292
-relatie_overig_actueel_vorm_other,instrument reden beeindiging historie doelstelling bereikt  uitstroom overig,Relationship Other Current Form Other,,,,3.04,Relationship,0,293
-relatie_overig_bewindvoerder,instrument reden beeindiging historie niet matchbaar,Relationship other administrator,,,,1.34,Relationship,0,294
-relatie_overig_historie_vorm__andere_inwonende,instrument reden beeindiging historie niet succesvol  reden bij werkzoekende,Relationship Other History Form Other resident,,Has lived with a roomate,,6.99,Relationship,0,295
-relatie_overig_historie_vorm__gemachtigde,instrument reden beeindiging historie overdracht naar prematching,Relationship Other History Type Authorized Representative,,Customer has had an authorized representative in their history.,,3.95,Relationship,0,296
-relatie_overig_historie_vorm__kostendeler,ontheffing reden hist medische gronden,Relationship Other History Type Cost sharer,,,,3.00,Relationship,0,297
-relatie_overig_historie_vorm__onderhoudsplichtige,ontheffing reden hist tijdelijke ontheffing arbeidsverplichtingen,Relationship Other History Form maintenance person,,,,0.44,Relationship,0,298
-relatie_overig_kostendeler,persoonlijke eigenschappen flexibiliteit opm,Relationship other costsharer,,Customer currenty has a costsharer,,20.75,Relationship,0,299
-relatie_partner_aantal_partner___partner__gehuwd_,persoonlijke eigenschappen ind buiten kantoortijden,relationship partner number of married partners,,The number of married partners the customer has had.,,0.10,Relationship,0,300
-relatie_partner_aantal_partner___partner__ongehuwd_,persoonlijke eigenschappen nl lezen3,Relationship Partner Number of Umarried Partners,,The number of unmarried partners the customer has had.,,0.45,Relationship,0,301
-relatie_partner_huidige_partner___partner__gehuwd_,persoonlijke eigenschappen nl lezen4,Relationship Partner Current Partner Partner Married,,,,1.10,Relationship,0,302
-relatie_partner_totaal_dagen_partner,persoonlijke eigenschappen nl schrijven1,Relationship Partner Total Days Partner,,Total days customer has had a partner,,12.44,Relationship,0,303
-typering_aantal,persoonlijke eigenschappen nl schrijven3,Number of Customer Types,,,,0.07,Customer type,0,304
-typering_dagen_som,persoonlijke eigenschappen zelfstandigheid opm,Customer Type Days Sum,,The sum of days that the customer has had a customer type.,,5.07,Customer type,0,305
-typering_hist_aantal,pla einde doelstelling niet bereikt  overdracht,Customer type history number,,The number of customer types in the client history,,0.28,Customer type,0,306
-typering_hist_inburgeringsbehoeftig,pla historie werk en inburgering,Customer type history integration,,,,0.00,Customer type,0,307
-typering_hist_ind,relatie kind heeft kinderen,Has customer type history,,,,0.00,Customer type,0,308
-typering_hist_sector_zorg,relatie overig actueel vorm  gemachtigde,Customer type history care,,,,0.00,Customer type,0,309
-typering_ind,typering hist inburgeringsbehoeftig,Has customer type,,,,0.00,Customer type,0,310
-typering_indicatie_geheime_gegevens,typering hist ind,Customer Type Secret Data,,,,0.09,Customer type,0,311
-typering_other,typering hist sector zorg,Customer type other,,Customer type is other,,0.21,Customer type,0,312
-typering_transport__logistiek___tuinbouw,typering ind,Customer type Transport Logistics Horticulture,,"The customerm works in transport, logistics, or horticulture. ",,0.18,Customer type,0,313
+feature_dutch_underscore,feature_dutch,feature_english_auto_translate,feature_english,description,description_dutch,feature_importance,category,default_value,index
+adres_aantal_brp_adres,adres aantal brp adres,Address Number of BRP Addresses,Number of registered addresses,,,6.37,Address,0,0
+adres_aantal_verschillende_wijken,adres aantal verschillende wijken,address number of different neighborhoods,Number of districts,The number of districts the welfare recepient has lived in,,1.86,Address,0,1
+adres_aantal_verzendadres,adres aantal verzendadres,address number of shipping address,Number of postal addresses,,,4.68,Address,0,2
+adres_aantal_woonadres_handmatig,adres recentste wijk feijenoord,address number of home addresses entered manually,District Feijenoord,Lives in the Feijenoord district,,2.39,Address,0,3
+adres_dagen_op_adres,Dagen op adres,Address days at address,Number of days at current address,,,23.33,Address,0,4
+adres_recentst_onderdeel_rdam,adres recentst onderdeel rdam,address most recently part Rotterdam,Lives in Rotterdam city limits,,,1.40,Address,0,5
+adres_recentste_buurt_groot_ijsselmonde,adres recentste buurt groot ijsselmonde,address most recent neighborhood Groot IJsselmonde,Neighborhood Groot Ijsselmonde,The welfare recepient lives in the Groot Ijsselmonde neighborhood,,3.69,Address,0,6
+adres_recentste_buurt_nieuwe_westen,adres recentste buurt nieuwe westen,address most recent neighborhood Nieuwe Westen,Lives in the Nieuwe Westen neighborhood,,,0.00,Address,0,7
+adres_recentste_buurt_other,adres recentste buurt other,address most recent neighborhood other,Neighborhood other,Lives in neighborhood 'other',,2.35,Address,0,8
+adres_recentste_buurt_oude_noorden,adres recentste buurt oude noorden,address most recent neighborhood Oude Noorden,Lives in the Oude Noorden neighborhood,,,0.00,Address,0,9
+adres_recentste_buurt_vreewijk,adres recentste buurt vreewijk,address most recent neighborhood Vreewijk,Lives in the Vreewijk neighborhood,,,0.46,Address,0,10
+adres_recentste_plaats_other,adres recentste plaats other,address most recent,Lives outside Rotterdam,,,0.00,Address,0,11
+adres_recentste_plaats_rotterdam,adres recentste plaats rotterdam,address most recent Rotterdam,Lives inside Rotterdam,,,0.56,Address,0,12
+adres_recentste_wijk_charlois,adres recentste wijk charlois,address most recent Charlois district,District Charlois,Lives in the Charlois district,,1.09,Address,0,13
+adres_recentste_wijk_delfshaven,adres recentste wijk delfshaven,address most recent Delfshaven district,District Delfshaven,Lives in the Delfshaven district,,1.38,Address,0,14
+adres_recentste_wijk_feijenoord,adres aantal woonadres handmatig,address most recent district of Feijenoord,Number of home addresses entered manually,Number of addresses that a social worker had to enter manually,,2.39,Contact,0,15
+adres_recentste_wijk_ijsselmonde,belemmering hist lichamelijke problematiek,address most recent IJsselmonde district,Lives in the Ijsselmonde district,,,0.09,Address,0,16
+adres_recentste_wijk_kralingen_c,instrument reden beeindiging historie overdracht naar mo,address most recent district Kralingen C,Lives in the Karlingen district,,,0.28,Address,0,17
+adres_recentste_wijk_noord,adres recentste wijk noord,address most recent district Noord,Lives in the Noord district,,,1.01,Address,0,18
+adres_recentste_wijk_other,adres recentste wijk other,address most recent,Lives in district 'other;,,,0.90,Address,0,19
+adres_recentste_wijk_prins_alexa,adres recentste wijk prins alexa,address most recent district Prins Alexa,District Prins Alexander,Lives in the Prins Alexander district,,1.32,Address,0,20
+adres_recentste_wijk_stadscentru,adres recentste wijk ijsselmonde,address most recent district of city center,Lives in the City Center district,,,0.09,Address,0,21
+adres_unieke_wijk_ratio,afspraak gespr einde zoekt Galo gesprek,Address unique district ratio,Unique district ratio ,"The ratio of unique districts a benefit recepient has lived in. If they have lived in two unique districts, their ratio would be 0.5. If they have only lived in one district, it would be 1.0",,1.09,Address,0,22
+afspraak_aanmelding_afgesloten,pla actueel pla categorie doelstelling 9,Appointment registered closed,,,,0.48,Appointment,0,23
+afspraak_aantal_woorden,afspraak aantal woorden,appointment number of words,Number of words written by social worker,,,6.92,Appointment,0,24
+afspraak_afgelopen_jaar_afsprakenplan,afspraak afgelopen jaar afsprakenplan,appointment last year appointment plan,Number of appointments about making an appointment plan,,,2.01,Appointment,0,25
+afspraak_afgelopen_jaar_monitoring_insp__wet_taaleis_na_12_mnd_n_a_v__taa04_____geen_maatregel,afspraak afgelopen jaar monitoring insp  wet taaleis na 12 mnd n a v  taa04     geen maatregel,Appointment last year Monitoring Track of Language requirement after 12 months N a V TAA04 No measure,No penalty for failing language requirement,The welfare recepeint hasn't received a penalty despite failing the Dutch langauge requirement,,2.24,Appointment,0,26
+afspraak_afgelopen_jaar_ontheffing,typering other,appointment last year exemption,Number of appointments last year: work exeception ,Number of appointments the benefit recepient has had last year about an exemption from finding a job. ,,0.21,Appointment,0,27
+afspraak_afgelopen_jaar_ontheffing_taaleis,afspraak afgelopen jaar ontheffing taaleis,Appointment last year exemption from language requirement,Number of meetings last year about an exemption from Dutch langauge requirement,,,2.79,Appointment,0,28
+afspraak_afgelopen_jaar_plan_van_aanpak,afspraak afgelopen jaar plan van aanpak,Appointment last year plan of action,Number of appointments last year: action plan. ,The number of appointments the benefit recepient had last year about their work reinteigration action plan.,,0.25,Appointment,0,29
+afspraak_afgelopen_jaar_signaal_voor_medewerker,afspraak afgelopen jaar signaal voor medewerker,appointment last year signal for employee,Number of appointments last year because of a social worker tip,,,1.37,Appointment,0,30
+afspraak_afgelopen_jaar_vervolgmeting_matchbaarheid_werkzoekende_klant,afspraak afgelopen jaar vervolgmeting matchbaarheid werkzoekende klant,Appointment last year Follow -up measurement matchability Job -seeking customer,Number of appointments last year: matchability for work,The number of appointments the benefit recepient had last year about their matchability for work. ,,0.00,Appointment,0,31
+afspraak_afgelopen_jaar_voortgang_aanmelding_en_deelname,afspraak afgelopen jaar voortgang aanmelding en deelname,Appointment last year Progress Registration and participation,Number of appointments last year: progress and search for work,The number of appointments the benefit recepient had last year about their progress and search for work. ,,0.64,Appointment,0,32
+afspraak_afsprakenplan,contacten soort afgelopenjaar rapportage rib,Appointment Appointment Plan,,,,0.35,Appointment,0,33
+afspraak_controle_aankondiging_maatregel,afspraak controle aankondiging maatregel,Appointment announce control measure,Number of messages about a penalty,"The number of messages a welfare recepient has received about a penalty because, for example, they have not found a job fast enough",,3.12,Appointment,0,34
+afspraak_controle_verwijzing,afspraak controle verwijzing,Appointment check referral,,Customer had an appointment about a control measure.,,0.16,Appointment,0,35
+afspraak_deelname_compleet_uit_webapplicatie,afspraak deelname compleet uit webapplicatie,Appointment participation completed from web application,Number of total appointments: application completed from web application. ,,,0.60,Appointment,0,36
+afspraak_galo_gesprek,afspraak galo gesprek,appointment Galo conversation,,,,0.61,Appointment,0,37
+afspraak_gespr__einde_zoekt___galo_gesprek_,pla hist pla categorie doelstelling 3,Appointment Discuss End Looking For Galo Interview,,,,1.09,Appointment,0,38
+afspraak_inspanningsperiode,afspraak inspanningsperiode,Appointment effort period,Number of appointments about work effort,The number of appointments a welfare recepient has had about their effort to find work,,9.36,Appointment,0,39
+afspraak_laatstejaar_aantal_woorden,afspraak laatstejaar aantal woorden,appointment last year number of words,Number of words in appointment writeups last year,The total number of words a social worker has written about appointments with the welfare recepient over the course of last year,,7.29,Appointment,0,40
+afspraak_laatstejaar_resultaat_ingevuld,competentie samenwerken en overleggen,Appointment last year result filled in,Number of appointments last year with a result filled in ,The total number of appointments last year where the social worker filled in a result.,,0.96,Appointment,0,41
+afspraak_laatstejaar_resultaat_ingevuld_uniek,afspraak laatstejaar resultaat ingevuld uniek,Appointment last year result filled in unique,Number of appointment writeups with unique results last year,The number of times the social worker has written a unique result of appointments with the welfare recepient in the last year,,7.04,Appointment,0,42
+afspraak_other,persoonlijke eigenschappen nl schrijvenfalse,Appointment other,Number of appointments: other,"The total number of benefit recepient appointments labeled as ""other.""",,0.30,Appointment,0,43
+afspraak_participatietrede_vervolgmeting,afspraak participatietrede vervolgmeting,Appointment participation path follow -up measurement,Number of meetings about a follow up penalty,,,1.72,Appointment,0,44
+afspraak_resultaat_ingevuld_uniek,afspraak resultaat ingevuld uniek,Appointment result filled in unique,Number of appointment writeups with unique results,The number of times the social worker has written a unique result of appointments with the welfare recepient,,8.18,Appointment,0,45
+afspraak_signaal_van_aanbieder,afspraak signaal van aanbieder,Appointment signal from employer,Number of appointments because of an employer tip,,,1.22,Appointment,0,46
+afspraak_signaal_voor_medewerker,afspraak signaal voor medewerker,Appointment signal for employee,Number of meetings because of social worker tip,The number of meeings started because a social worker has sent a tip into the department,,6.76,Appointment,0,47
+afspraak_toevoegen_inschrijving_uwvwb,afspraak toevoegen inschrijving uwvwb,appointment add UWVWB Registration,,Appointment register for national unemployment benefits.,,1.08,Appointment,0,48
+afspraak_vervolgmeting_matchbaarheid_werkzoekende_klant,afspraak vervolgmeting matchbaarheid werkzoekende klant,Appointment follow -up measurement matchability jobseeker customer,,,,0.83,Appointment,0,49
+afspraak_verzenden_beschikking_i_v_m__niet_voldoen_aan_wet_taaleis,afspraak verzenden beschikking i v m  niet voldoen aan wet taaleis,Appointment does not comply with the Language requirement,Number of appointments about not complying with Dutch langauge requirement,,,1.26,Appointment,0,50
+afspraak_voortgangsgesprek,relatie partner aantal partner   partner  ongehuwd,Appointment progress interview,,Customer has been contacted for an interview about their progress.,,0.45,Appointment,0,51
+belemmering_aantal_huidig,belemmering aantal huidig,Obstacles current number,,The current number of obstacles to finding work the customer has registered.,,0.49,Obstacle,0,52
+belemmering_dagen_financiele_problemen,belemmering dagen financiele problemen,Obstacles Days Financial Problems,Number of days with financial problems,The number of days the welfare recepient has struggled with financial problems,,9.04,Obstacle,0,53
+belemmering_dagen_lichamelijke_problematiek,belemmering dagen lichamelijke problematiek,Obstacle Days Physical problems,Days with physical problems,,,3.94,Obstacle,0,54
+belemmering_dagen_psychische_problemen,belemmering dagen psychische problemen,Obstacle days psychological problems,Days with psychological struggles,,,7.33,Obstacle,0,55
+belemmering_financiele_problemen,belemmering financiele problemen,Obstacle financial problems,Struggles financially,,,2.08,Obstacle,0,56
+belemmering_hist_lichamelijke_problematiek,instrument reden beeindiging historie direct matchbaar,Obtacle Hist physical problems,,Physcial problems are listed in the customer's obstacle history.,,0.09,Obstacle,0,57
+belemmering_hist_psychische_problemen,persoonlijke eigenschappen doorzettingsvermogen opm,Obstacle Hist Psychological Problems,,The customer has psychological problems as an obstacle in their history.,,0.12,Obstacle,0,58
+belemmering_hist_stabiele_mix__sz____dagbesteding_werk,pla einde doelstelling bereikt  overdracht,Obstacle Hist Stable Mix of Daytime Activities and Work,,Client has faced obstecle of a balnaced mix of daytime activities and work.,,0.10,Obstacle,0,59
+belemmering_hist_taal,belemmering hist taal,Obstacle HIST LANGUAGE,,,,0.00,Obstacle,0,60
+belemmering_hist_verslavingsproblematiek,Verslavingsproblematiek,Obstacle Hist addiction problems,Addiction problems,,,2.22,Obstacle,0,61
+belemmering_ind,belemmering ind,Obstacle ind,,,,0.00,Obstacle,0,62
+belemmering_ind_hist,belemmering ind hist,Obstacle ind Hist,,There is a registered obstacle in client history.,,0.73,Obstacle,0,63
+belemmering_niet_computervaardig,belemmering niet computervaardig,Obtacle not computer -skilled,,,,0.00,Obstacle,0,64
+belemmering_psychische_problemen,competentie materialen en middelen inzetten,Obstacle Psychological problems,,The customer has psychological problems as a current obstacle.,,0.28,Obstacle,0,65
+belemmering_woonsituatie,instrument reden beeindiging historie succesvol  doelstelling bereikt,Obstacle residential situation,,The customer's residential situation is listed as an obstacle.,,0.08,Obstacle,0,66
+beschikbaarheid_aantal_historie_afwijkend_wegens_medische_omstandigheden,beschikbaarheid aantal historie afwijkend wegens medische omstandigheden,availability amount history abnormal due to medical conditions,Abnormal avalibility because of medical conditions,The number of times the welfare recepient has had abnormal work avalibility because of a medical condition,,8.15,Availability,0,67
+beschikbaarheid_aantal_historie_afwijkend_wegens_sociaal_maatschappelijke_situatie,contacten onderwerp boolean match   werk,availability history deviating due to social situation,,The customer's avalibility for work has recently been deviating because of their social situation.,,0.10,Availability,0,68
+beschikbaarheid_huidig_afwijkend_wegens_medische_omstandigheden,persoonlijke eigenschappen overige opmerkingen,Availability current deviation due to medical conditions,,The customer currently has non-standard avalibility because of medical conditions.,,0.30,Availability,0,69
+beschikbaarheid_huidig_bekend,pla hist pla categorie doelstelling 6,Availability current known,,The avalibility of the customer is currently unknown.,,0.08,Availability,0,70
+beschikbaarheid_recent_afwijkend_wegens_medische_omstandigheden,ontheffing reden tijdelijke ontheffing arbeidsverpl  en tegenprestatie,availability recently deviates due to medical conditions,,The customer recently has had non-standard avalibility for work and appointments because of medical conditions.,,0.37,Availability,0,71
+beschikbaarheid_recent_afwijkend_wegens_sociaal_maatschappelijke_situatie,relatie overig actueel vorm  onderhoudsplichtige,availability recently deviating due to social situation,,The avalibility of the customer has recently been non-standard because of their social situation.,,0.08,Availability,0,72
+competentie_aansturen,competentie aansturen,Competence Control,,,,0.69,Skill,0,73
+competentie_analyseren,competentie analyseren,Competence Analyze,Lacks skill: analyzing,,,1.12,Skill,0,74
+competentie_ethisch_en_integer_handelen,instrument reden beeindiging historie op termijn matchbaar,Competence ethical and honest action,,,,0.17,Skill,0,75
+competentie_formuleren_en_rapporteren,afspraak afgelopen jaar ontheffing,Competence Formulate and report,,,,0.21,Skill,0,76
+competentie_gedrevenheid_en_ambitie_tonen,competentie gedrevenheid en ambitie tonen,Competence drive and ambition,Lacks skill: drive and ambition,,,1.11,Skill,0,77
+competentie_instructies_en_procedures_opvolgen,competentie instructies en procedures opvolgen,Skill follow up instructions and procedures,,,,0.00,Skill,0,78
+competentie_kwaliteit_leveren,contacten soort afgelopenjaar telefoontje  uitgaand,Compotence delivering quality,Number of outgoing phone calls last year,,,1.27,Skill,0,79
+competentie_leren,competentie leren,Skill learning,,,,0.00,Skill,0,80
+competentie_materialen_en_middelen_inzetten,ontheffing hist ind,Competence uses materials and resources,,,,0.28,Skill,0,81
+competentie_met_druk_en_tegenslag_omgaan,persoonlijke eigenschappen ind activering traject,Competence with pressure and setbacks,,,,0.13,Skill,0,82
+competentie_omgaan_met_verandering_en_aanpassen,competentie omgaan met verandering en aanpassen,competence dealing with change and adjustment,,,,0.00,Skill,0,83
+competentie_onderzoeken,typering transport  logistiek   tuinbouw,competence research,,,,0.18,Skill,0,84
+competentie_op_de_behoeften_en_verwachtingen_van_de__klant__richten,competentie op de behoeften en verwachtingen van de  klant  richten,Competence focus on customer needs and expectations,,,,0.56,Skill,0,85
+competentie_other,competentie other,Competence Other,,,,0.65,Skill,0,86
+competentie_overtuigen_en_beïnvloeden,competentie overtuigen en be?nvloeden,Competence convince and influence,,,,0.77,Skill,0,87
+competentie_plannen_en_organiseren,gebrek aan plannen en organiseren,Competence Planning and Organizing,Lacks skill: planning and organizing,,,2.26,Skill,0,88
+competentie_samenwerken_en_overleggen,afspraak laatstejaar resultaat ingevuld,Competence collaboration and consultation,,,,0.96,Skill,0,89
+competentie_vakdeskundigheid_toepassen,geen vakdeskundigheid toepassen,Skill Applying Profesional Expertise,Lacks skill: profesional work experience,0 if the welfare recepient has profesional work experience; 1 if the welfare recepient DOES NOT have profesional work experience.,,25.11,Skill,0,90
+contacten_onderwerp__arbeids_motivatie,contacten onderwerp  arbeids motivatie,Contacts subject work motivation,,Customer has been contacted because of work motivation.,,0.59,Contact,0,91
+contacten_onderwerp__pre__intake,contacten onderwerp  pre  intake,Contacts Subject Pre Intake,,,,0.00,Contact,0,92
+contacten_onderwerp__werk_intake,contacten onderwerp  werk intake,Contacts Subject Work Intake,Number of messages about a work intake,,,4.09,Contact,0,93
+contacten_onderwerp_arbeidsdiagnose_dariuz,contacten onderwerp arbeidsdiagnose dariuz,Contacts Subject Labor diagnosis Dariuz,,Contact with subject of a labor diagnosis with Dariusz.,,0.33,Contact,0,94
+contacten_onderwerp_beoordelen_taaleis,contacten onderwerp beoordelen taaleis,Contacts topic assessment language requirement,Number of messages about Dutch proficiency assessments,The number of times the welfare recepient has been contacted about assess their proficiency in Dutch,,1.61,Contact,0,95
+contacten_onderwerp_boolean__arbeids_motivatie,contacten onderwerp boolean  arbeids motivatie,Contacts subject Boolean Labor motivation,,,,0.00,Contact,0,96
+contacten_onderwerp_boolean__pre__intake,contacten onderwerp boolean  pre  intake,Contacts Subject Boolean Pre Intake,,,,0.00,Contact,0,97
+contacten_onderwerp_boolean__werk_intake,contacten onderwerp boolean  werk intake,Contacts Subject Boolean Work Intake,,,,0.00,Contact,0,98
+contacten_onderwerp_boolean_beoordelen_taaleis,contacten onderwerp boolean beoordelen taaleis,Contacts subject Boolean assess Language Requirement,,,,0.00,Contact,0,99
+contacten_onderwerp_boolean_contact_derden,contacten onderwerp boolean contact derden,Contacts Subject Boolean Contact third parties,,,,0.00,Contact,0,100
+contacten_onderwerp_boolean_contact_met_aanbieder,contacten onderwerp boolean contact met aanbieder,Contacts Subject Boolean Contact with Employer,,,,0.00,Contact,0,101
+contacten_onderwerp_boolean_diagnosegesprek,contacten onderwerp boolean diagnosegesprek,Contacts Subject Boolean Diagnose interview,,,,0.00,Contact,0,102
+contacten_onderwerp_boolean_documenten__innemen_,contacten onderwerp boolean documenten  innemen,Contact subject Boolean documents,,,,0.00,Contact,0,103
+contacten_onderwerp_boolean_documenttype__cv_,contacten onderwerp boolean documenttype  cv,Contacts Subject Boolean Document Type CV,,,,0.00,Contact,0,104
+contacten_onderwerp_boolean_documenttype__diploma_s_en_certificaten_,contacten onderwerp boolean documenttype  diploma s en certificaten,Contacts Subject Boolean Document Type Diplomas and certificates,,,,0.70,Contact,0,105
+contacten_onderwerp_boolean_documenttype__overeenkomst_,contacten onderwerp boolean documenttype  overeenkomst,Contacts Subject Boolean Document Type Agreement,,,,0.00,Contact,0,106
+contacten_onderwerp_boolean_financiële_situatie,contacten onderwerp boolean financi?le situatie,Contacts Subject Boolean Financial Situation,,,,0.00,Contact,0,107
+contacten_onderwerp_boolean_groepsbijeenkomst,contacten onderwerp boolean groepsbijeenkomst,Contacts Subject Boolean Group meeting,,,,0.00,Contact,0,108
+contacten_onderwerp_boolean_inkomen,contacten onderwerp boolean inkomen,Contacts Subject Boolean Income,,,,0.00,Contact,0,109
+contacten_onderwerp_boolean_maatregel_overweging,contacten onderwerp boolean maatregel overweging,Contacts Subject Boolean Measure consideration,,,,0.00,Contact,0,110
+contacten_onderwerp_boolean_match___werk,relatie partner aantal partner   partner  gehuwd,Contacts Subject Boolean Match Work,,,,0.10,Contact,0,111
+contacten_onderwerp_boolean_matching,contacten onderwerp boolean matching,Contacts Subject Boolean Matching,,,,0.00,Contact,0,112
+contacten_onderwerp_boolean_motivatie,contacten onderwerp boolean motivatie,Contacts Subject Boolean Motivation,,,,0.53,Contact,0,113
+contacten_onderwerp_boolean_mutatie,contacten onderwerp boolean mutatie,Contacts Subject Boolean mutation,,,,0.00,Contact,0,114
+contacten_onderwerp_boolean_no_show,contacten onderwerp boolean no show,Contacts Subject Boolean No Show,,,,0.00,Contact,0,115
+contacten_onderwerp_boolean_overige,contacten onderwerp boolean overige,Contacts Subject Boolean Other,,,,0.00,Contact,0,116
+contacten_onderwerp_boolean_overleg_met_inkomen,contacten onderwerp boolean overleg met inkomen,Contacts Subject Boolean Consultation with Income,,,,0.00,Contact,0,117
+contacten_onderwerp_boolean_scholing,contacten onderwerp boolean scholing,Contacts Subject Boolean Training,,,,0.00,Contact,0,118
+contacten_onderwerp_boolean_sollicitatie,contacten onderwerp boolean sollicitatie,Contacts Subject Boolean Application,,,,0.00,Contact,0,119
+contacten_onderwerp_boolean_taaleis___voldoet,contacten onderwerp boolean taaleis   voldoet,Contacts Subject Boolean Language requirement satisfactory,,The customer has been contacted about sucuessfully meeting their Dutch language requirement,,0.00,Contact,0,120
+contacten_onderwerp_boolean_terugbelverzoek,contacten onderwerp boolean terugbelverzoek,Contacts Subject Boolean recelples request,,,,0.00,Contact,0,121
+contacten_onderwerp_boolean_traject,contacten onderwerp boolean traject,Contacts Subject Boolean process,,,,0.00,Contact,0,122
+contacten_onderwerp_boolean_uitnodiging,contacten onderwerp boolean uitnodiging,Contacts Subject Boolean Invitation,,,,0.00,Contact,0,123
+contacten_onderwerp_boolean_ziek__of_afmelding,contacten onderwerp boolean ziek  of afmelding,Contacts subject Boolean sick or cancellation,,,,0.00,Contact,0,124
+contacten_onderwerp_boolean_zorg,contacten onderwerp boolean zorg,Contacts Subject Boolean care,,,,0.00,Contact,0,125
+contacten_onderwerp_contact_derden,contacten onderwerp ziek  of afmelding,Contacts Subject contact third parties,,,,0.52,Contact,0,126
+contacten_onderwerp_contact_met_aanbieder,contacten onderwerp contact met aanbieder,Contacts Subject contact with employer,,Contact with subject about employer.,,0.74,Contact,0,127
+contacten_onderwerp_diagnosegesprek,contacten onderwerp diagnosegesprek,Contacts Subject Diagnostic interview,,,,0.42,Contact,0,128
+contacten_onderwerp_documenten__innemen_,contacten onderwerp documenten  innemen,Contacts topic documents,,,,1.58,Contact,0,129
+contacten_onderwerp_documenttype__cv_,contacten soort groepsbijeenkomsten,Contacts Subject Document Type CV,,,,0.47,Contact,0,130
+contacten_onderwerp_documenttype__overeenkomst_,contacten onderwerp documenttype  overeenkomst,Contacts Subject Document Type Agreement,Number of agreements,"The number of agreements the welfare recepient has made with the municipality, about, for example, finding work",,6.41,Contact,0,131
+contacten_onderwerp_financiële_situatie,contacten onderwerp financi?le situatie,Contacts Subject Finance Situation,Number of messages about financial situation,,,3.32,Contact,0,132
+contacten_onderwerp_groepsbijeenkomst,contacten onderwerp groepsbijeenkomst,Contacts Subject group meeting,,,,0.88,Contact,0,133
+contacten_onderwerp_inkomen,contacten onderwerp inkomen,Contacts Subject Income,Number of messages about income,,,5.29,Contact,0,134
+contacten_onderwerp_inname_aanvraag,contacten onderwerp inname aanvraag,Contacts Subject intake request,,,,0.00,Contact,0,135
+contacten_onderwerp_inspanningstoets,deelname act reintegratieladder werk re integratie,Contacts Subject Effort Test,Project work and reintegration,,,1.78,Contact,0,136
+contacten_onderwerp_maatregel_overweging,contacten onderwerp maatregel overweging,Contacts Subject Measure consideration,Number of messages about a considered penalty,"The number of messages the welfare recepient has received about a possible penalty because, for example, they have not found a job fast enough",,2.68,Contact,0,137
+contacten_onderwerp_matching,contacten onderwerp matching,Contacts Subject matching,,,,1.02,Contact,0,138
+contacten_onderwerp_mutatie,contacten onderwerp mutatie,Contacts Subject Change,Number of messages about change,,,1.29,Contact,0,139
+contacten_onderwerp_no_show,Afspraak no show,Contact subject no show,Number of missed meerings,The number of times the welfare recepient has missed a meeting.,,27.87,Contact,0,140
+contacten_onderwerp_overige,contacten onderwerp overige,Contacts Subject Other,Different types of contact with subject 'other',,,3.49,Contact,0,141
+contacten_onderwerp_overleg_met_inkomen,contacten onderwerp overleg met inkomen,Contact subject consultation about income,Number of meetings with a financial counselor,The number of meetings the welfare recepient has had with a financial counselor from the welfare department.,,24.10,Contact,0,142
+contacten_onderwerp_quickscan,contacten onderwerp quickscan,Contacts Subject Quickscan,,,,0.70,Contact,0,143
+contacten_onderwerp_scholing,pla hist pla categorie doelstelling 11,Contacts Subject training,,Customer has been contacted because of a (work) training.,,0.57,Contact,0,144
+contacten_onderwerp_screening,contacten onderwerp screening,Contacts Subject screening,,,,0.41,Contact,0,145
+contacten_onderwerp_terugbelverzoek,contacten onderwerp terugbelverzoek,Contacts Subject recovery request,Number of messages about benefits payback,"Number of messages the welfare recepinet has received about having to payback some of their benefits, because, for example, they have not found a job fast enough",,1.75,Contact,0,146
+contacten_onderwerp_traject,contacten onderwerp traject,Contacts Subject process,Number of messages about work trajecotry,,,1.59,Contact,0,147
+contacten_onderwerp_uitnodiging,contacten onderwerp uitnodiging,Contacts Subject Invitation,,,,1.11,Contact,0,148
+contacten_onderwerp_vakantie,typering indicatie geheime gegevens,Contacts Subject holiday,,,,0.09,Contact,0,149
+contacten_onderwerp_werkintake__niet_verschenen,beschikbaarheid huidig afwijkend wegens medische omstandigheden,Contacts subject work intake did not appear,,The customer has been contacted because they did not appear at their work intake.,,0.30,Contact,0,150
+contacten_onderwerp_ziek__of_afmelding,contacten onderwerp contact derden,Contacts subject Sick or cancellation,,,,0.52,Contact,0,151
+contacten_onderwerp_zorg,contacten onderwerp zorg,Contacts subject care,Number of messages health,The number of times the welfare recepient has been contacted about their health,,1.64,Contact,0,152
+contacten_soort_afgelopenjaar_anders,contacten soort afgelopenjaar anders,Contacts different kinds of contact last year,Different types of contact with subject 'other' last year,,,4.02,Contact,0,153
+contacten_soort_afgelopenjaar_document__inkomend_,contacten soort afgelopenjaar document  inkomend,Contacts Type Last year Document Incoming,,,,1.07,Contact,0,154
+contacten_soort_afgelopenjaar_document__uitgaand_,contacten: aantal document uitgaand,Contact type last year outgoing documents,Number of outgoung documents sent last year,,,15.41,Contact,0,155
+contacten_soort_afgelopenjaar_e_mail__inkomend_,contacten soort afgelopenjaar e mail  inkomend,Contacts Type Last year E -mail Incoming,Number of incoming emails last year,,,1.33,Contact,0,156
+contacten_soort_afgelopenjaar_e_mail__uitgaand_,contacten soort afgelopenjaar e mail  uitgaand,Contacts type last year e -mail outgoing,Number of outgoing emails last year,,,2.55,Contact,0,157
+contacten_soort_afgelopenjaar_gesprek,contacten soort afgelopenjaar gesprek,Contacts Type last year interview,Number of messages about an in-person interview,,,2.13,Contact,0,158
+contacten_soort_afgelopenjaar_gesprek_op_locatie,instrument reden beeindiging historie uitval  aanbod niet langer zinvol volgens gemeente,Contacts Type of Past year Conversation on location,,In the past year the customer has been contacted about an appointment on site.,,0.36,Contact,0,159
+contacten_soort_afgelopenjaar_rapportage_rib,afspraak afsprakenplan,Contacts Type Last year Reporting RIB,,,,0.35,Contact,0,160
+contacten_soort_afgelopenjaar_telefoontje__inkomend_,contacten soort afgelopenjaar telefoontje  inkomend,Contacts Type last year Incoming,Number of incoming phone calls last year,,,1.46,Contact,0,161
+contacten_soort_afgelopenjaar_telefoontje__uitgaand_,competentie kwaliteit leveren,Contacts Type Last year phone call outgoing,Lacks skill: delivering quality,,,1.27,Contact,0,162
+contacten_soort_anders,contacten soort anders,Contacts type different,Number of messages with subject 'other',,,2.40,Contact,0,163
+contacten_soort_document__inkomend_,contacten soort document  inkomend,Contacts type document incoming,Number of incoming documents,,,6.79,Contact,0,164
+contacten_soort_document__uitgaand_,contacten soort document  uitgaand,Contacts Type of document outgoing,Number of outgoing documents,,,4.43,Contact,0,165
+contacten_soort_e_mail__inkomend_,contacten soort e mail  inkomend,Contacts type e -mail incoming,Number of incoming emails,,,2.05,Contact,0,166
+contacten_soort_e_mail__uitgaand_,contacten soort e mail  uitgaand,Contacts type e -mail outgoing,Number of outgoing emails,,,1.60,Contact,0,167
+contacten_soort_gesprek_op_locatie,contacten soort gesprek op locatie,Contacts Type conversation on location,Number of messages about an in-person meeting,,,3.26,Contact,0,168
+contacten_soort_groepsbijeenkomsten,contacten onderwerp documenttype  cv,Contacts Type Group meetings,,Customer has been contacted about a group meeting with other people who receive benefits.,,0.47,Contact,0,169
+contacten_soort_rapportage_deelname,contacten soort rapportage deelname,Contacts Type Report Participation,,,,0.68,Contact,0,170
+contacten_soort_rapportage_rib,contacten soort rapportage rib,Contacts Type RIB Report,,Contact type council information.,,0.98,Contact,0,171
+contacten_soort_telefoontje__inkomend_,contacten soort telefoontje inkomend,Contacts Type of phone call Incoming,Number of incoming phone calls,,,2.50,Contact,0,172
+contacten_soort_telefoontje__uitgaand_,contacten soort telefoontje  uitgaand,Contacts Type of phone call outgoing,Number of outgoing phone calls,,,2.27,Contact,0,173
+deelname_act_actueel_projecten_uniek,deelname act actueel projecten uniek,Participation Act Current Projects Unique,Number of unique projects,,,1.81,Participation Act,0,174
+deelname_act_hist_projecten_niet_gestart,deelname act hist projecten niet gestart,Participation ACT HIST projects not started,Has not started back-to-work plan projects,,,2.54,Participation Act,0,175
+deelname_act_reintegratieladder_ondersteunende_instrumenten,deelname act reintegratieladder ondersteunende instrumenten,Participation Act Reintegration Ladder Supporting Instruments,,,,1.15,Participation Act,0,176
+deelname_act_reintegratieladder_werk_re_integratie,contacten onderwerp inspanningstoets,Participation Act Reintegration Ladder Work Re Integration,Number of messages about the job search effort,Number of messages the welfare recepient has received about their effort at finding a job,,1.78,Participation Act,0,177
+instrument_aantal_laatstejaar,pla hist pla categorie doelstelling 9,instrument number last year,,The number of supporting 'instruments' (e.g. Dutch lessons) from last year.,,0.60,instrument ladder,0,178
+instrument_ladder_historie_activering,instrument ladder historie activering,Instrument ladder history activation,Has received labor reintegration support,The number of times the welfare recepient has received labor reintegration support,,10.76,Instrument ladder,0,179
+instrument_ladder_historie_other,contacten onderwerp scholing,Instrument Ladder History Other,,,,0.57,instrument ladder,0,180
+instrument_ladder_huidig_activering,instrument ladder huidig activering,Instrument Ladder Current activation,Receives labor reintegration support,"The welfare recepient is receving support to reintegrate into the labor market, including courses or volunteer work.",,17.50,Instrument ladder,0,181
+instrument_ladder_huidig_other,instrument ladder huidig other,Instrument Ladder Current Other,,,,0.60,instrument ladder,0,182
+instrument_ladder_huidig_werk_re_integratie,instrument ladder huidig werk re integratie,Instrument Ladder Current Work Re Integration,,The customer has work reintegration as part of their current insturment ladder.,,0.13,instrument ladder,0,183
+instrument_reden_beeindiging_historie_centrale_actie_wigo4it,instrument reden beeindiging historie centrale actie wigo4it,Instrument Reason Understanding History Central Action Wigo4it,,,,0.50,instrument ladder,0,184
+instrument_reden_beeindiging_historie_diagnose_gesteld,instrument reden beeindiging historie diagnose gesteld,instrument reasoning termination history diagnosis set,,,,0.00,instrument ladder,0,185
+instrument_reden_beeindiging_historie_direct_matchbaar,adres recentste wijk stadscentru,instrument termination history directly matchable,,,,0.09,instrument ladder,0,186
+instrument_reden_beeindiging_historie_doelstelling_bereikt__geen_uitstroom,instrument reden beeindiging historie overdracht naar regulier team iwpm,Instrument terminated does not achieve reintegration,,instrument is terminated because the customer does not acheive reintegration into the workforce.,,0.20,instrument ladder,0,187
+instrument_reden_beeindiging_historie_doelstelling_bereikt__uitstroom_naar_regulier_werk,instrument reden beeindiging historie doelstelling bereikt  uitstroom naar regulier werk,Instrument Reason for termination History objective achieves outflow to regular work,,The customer's insturment ladder is terminated because they have found regular work.,,0.00,instrument ladder,0,188
+instrument_reden_beeindiging_historie_doelstelling_bereikt__uitstroom_overig,instrument reden beeindiging historie doelstelling bereikt  uitstroom overig,Instrument Reason Understanding History Objective achieves outflow Other,,,,0.00,instrument ladder,0,189
+instrument_reden_beeindiging_historie_doelstelling_niet_bereikt__geen_uitstroom,pla einde doelstelling bereikt,instrument reason Under termination History objective does not reach reintegration,,,,0.54,instrument ladder,0,190
+instrument_reden_beeindiging_historie_niet_matchbaar,instrument reden beeindiging historie niet matchbaar,instrument reason termination history not matchable,,,,0.00,instrument ladder,0,191
+instrument_reden_beeindiging_historie_niet_succesvol,ontheffing reden hist other,instrument reason termination history not successful,,The customer has failed to acheive their insturment ladder.,,0.65,instrument ladder,0,192
+instrument_reden_beeindiging_historie_niet_succesvol__reden_bij_werkzoekende,instrument reden beeindiging historie niet succesvol  reden bij werkzoekende,Instrument Reason Understanding History not successful reason for job seekers,,,,0.00,instrument ladder,0,193
+instrument_reden_beeindiging_historie_op_termijn_matchbaar,competentie ethisch en integer handelen,Instrument Reason termination History in the long term,,,,0.17,instrument ladder,0,194
+instrument_reden_beeindiging_historie_other,persoonlijke eigenschappen taaleis schrijfv ok,Instrument Reason termination History Other,,,,0.23,instrument ladder,0,195
+instrument_reden_beeindiging_historie_overdracht_naar_mo,adres recentste wijk kralingen c,Instrument Reason termination History Transfer to MO,,,,0.28,instrument ladder,0,196
+instrument_reden_beeindiging_historie_overdracht_naar_prematching,instrument reden beeindiging historie overdracht naar prematching,Instrument Reason termination History Transfer to Prematching,,,,0.00,instrument ladder,0,197
+instrument_reden_beeindiging_historie_overdracht_naar_regulier_team_iwpm,persoonlijke eigenschappen initiatief opm,Instrument Reason termination History Transfer to regular team IWPM,,,,0.20,instrument ladder,0,198
+instrument_reden_beeindiging_historie_overdracht_succesvol,instrument reden beeindiging historie overdracht succesvol,Instrument Reason termination History Transfer Successful,,The instrument can be terminated because the client has sucuessfully transfered to the next step.,,0.31,instrument ladder,0,199
+instrument_reden_beeindiging_historie_succesvol,instrument reden beeindiging historie succesvol,instrument ladder reason termination reason sucuessful,Labor reintegration succuesful,"The number of times the welfare recepient has sucuessfully completed labor market reintegration, such as classes or volunteer work",,7.38,instrument ladder,0,200
+instrument_reden_beeindiging_historie_succesvol__doelstelling_bereikt,belemmering woonsituatie,Instrument Reason History Successful Objective achieved,,,,0.08,instrument ladder,0,201
+instrument_reden_beeindiging_historie_uitval__aanbod_niet_langer_zinvol_volgens_gemeente,contacten soort afgelopenjaar gesprek op locatie,Instrument Reason Under termination History offer no longer useful according to the municipality,,,,0.36,instrument ladder,0,202
+instrument_reden_beeindiging_historie_uitval__klant_wz__ziet_af_van_aanbod,instrument reden beeindiging historie uitval  klant wz  ziet af van aanbod,Instrument Termination Reason History Customer Declines Job Offer,Number of rejected job offers,The number of times the welfare recepient has rejected a job offer,,1.90,Personal qualities,0,203
+ontheffing_actueel_ind,ontheffing actueel ind,Exemption current,,Client currently exempt from reintegration.,,1.00,Exemption,0,204
+ontheffing_dagen_hist_mean,ontheffing dagen hist mean,Exemption days history mean,Average number of exemption days,"The number of days the welfare recepient has had an exemption from work, divided by the number of reasons for that exemption.",,8.68,Exemption,0,205
+ontheffing_dagen_hist_vanwege_uw_medische_omstandigheden,ontheffing dagen hist vanwege uw medische omstandigheden,Exemption day history because of your medical conditions,Number of exemption days because of a medical condtion,The number of days the welfare recepient has been eexempted from having to find work because of a medical condition,,13.82,Exemption,0,206
+ontheffing_hist_ind,pla einde geplande einddatum overschreden zonder nader bericht,Exemption in history,,There is an exemption from reintegration in the client history.,,0.28,Exemption,0,207
+ontheffing_reden_hist_medische_gronden,ontheffing reden hist medische gronden,Exemption Reason Hist Medical Grounds,,,,0.00,Exemption,0,208
+ontheffing_reden_hist_other,instrument reden beeindiging historie niet succesvol,Exemption Reason Hist Other,,,,0.65,Exemption,0,209
+ontheffing_reden_hist_sociale_gronden,ontheffing reden hist sociale gronden,Exemption reason history social grounds,,The customer has been exempt from the work requirement because of social reasons.,,0.22,Exemption,0,210
+ontheffing_reden_hist_tijdelijke_ontheffing_arbeidsverpl__en_tegenprestatie,ontheffing reden hist tijdelijke ontheffing arbeidsverpl en tegenprestatie,Exemption reason history temporary exemption work and obligation,Number of exemptions from finding temporary work,The number of exempetions the welfare recepient has received from having to find temporary or volunteer work,,6.64,Exemption,0,211
+ontheffing_reden_hist_tijdelijke_ontheffing_arbeidsverplichtingen,ontheffing reden hist tijdelijke ontheffing arbeidsverplichtingen,Exemption reason Hist temporary exemption for labor obligations,,,,0.00,Exemption,0,212
+ontheffing_reden_hist_vanwege_uw_sociaal_maatschappelijke_situatie,persoonlijke eigenschappen communicatie opm,Exemption history because of your social situation,,The customer has previously been exempt from the work requirement because of their social situation.,,0.11,Exemption,0,213
+ontheffing_reden_tijdelijke_ontheffing_arbeidsverpl__en_tegenprestatie,beschikbaarheid recent afwijkend wegens medische omstandigheden,Exemption temporary exemption from work obligation and requirement,,The customer has recevied an exemption from the work obligation and participation requirement.,,0.37,Exemption,0,214
+persoon_geslacht_vrouw,Geslacht vrouw,person gender woman,Gender,"0 is man, 1 is woman",,9.90,Person,0,215
+persoon_leeftijd_bij_onderzoek,Leeftijd,Person Age During Investigation,Age,,,100.00,Person,0,216
+persoonlijke_eigenschappen_communicatie_opm,persoonlijke eigenschappen spreektaal anders,Personal characteristics communication,,,,0.11,Personal qualities,0,217
+persoonlijke_eigenschappen_dagen_sinds_opvoer,persoonlijke eigenschappen dagen sinds opvoer,Personal qualities days since last updated,Days since personal qualities updated,The number of days since a social worker has updated the personal qualities of the welfare recepient in the welfare database,,14.93,Personal qualities,0,218
+persoonlijke_eigenschappen_dagen_sinds_taaleis,persoonlijke eigenschappen dagen sinds taaleis,Personal qualities days since language requirement,Days since language requirement,The number of days since the welfare recepient has passed their Dutch profiiciency. 0 if the welfare recpeeint hasn't passed their Dutch proficiency exam.,,15.15,Personal qualities,0,219
+persoonlijke_eigenschappen_doorzettingsvermogen_opm,belemmering hist psychische problemen,Personal characteristics perseverance,,,,0.12,Personal qualities,0,220
+persoonlijke_eigenschappen_flexibiliteit_opm,persoonlijke eigenschappen flexibiliteit opm,Personal characteristics flexibility,,,,0.00,Personal qualities,0,221
+persoonlijke_eigenschappen_hobbies_sport,persoonlijke eigenschappen hobbies sport,Personal qualities Hobbies or Sport,,Whether the customer has any hobbies and/or plays any sports.,,0.62,Personal qualities,0,222
+persoonlijke_eigenschappen_houding_opm,instrument reden beeindiging historie doelstelling niet bereikt  geen uitstroom,Personal qualities attitude remark,,"Whether the customer has a remark or comment from the social workerin the ""attitude"" field. ",,0.54,Personal qualities,0,223
+persoonlijke_eigenschappen_ind_activering_traject,competentie met druk en tegenslag omgaan,Personal characteristics in activation process,,Personal characteristics are included in the social activation trajectory,,0.13,Personal qualities,0,224
+persoonlijke_eigenschappen_ind_buiten_kantoortijden,persoonlijke eigenschappen ind buiten kantoortijden,Personal properties IND outside office hours,,,,0.00,Personal qualities,0,225
+persoonlijke_eigenschappen_ind_regulier_arbeidsritme,persoonlijke eigenschappen nl schrijven0,Personal characteristics in regular labor rhythm,,,,0.14,Personal qualities,0,226
+persoonlijke_eigenschappen_initiatief_opm,pla hist pla categorie doelstelling 27,Personal qualities initiative,,,,0.20,Personal qualities,0,227
+persoonlijke_eigenschappen_leergierigheid_opm,persoonlijke eigenschappen leergierigheid opm,Personal qualities inquisitiveness,,,,0.27,Personal qualities,0,228
+persoonlijke_eigenschappen_motivatie_opm,persoonlijke eigenschappen motivatie opm,Personal qualities Motivation remark,,There is a comment or remark in the motivation field of the customer's personal qualities,,0.46,Personal qualities,0,229
+persoonlijke_eigenschappen_nl_begrijpen3,persoonlijke eigenschappen nl begrijpen3,Personal qualities NL understanding 3,,,,0.31,Personal qualities,0,230
+persoonlijke_eigenschappen_nl_lezen3,persoonlijke eigenschappen nl lezen3,Personal qualities NL read 3,,,,0.00,Personal qualities,0,231
+persoonlijke_eigenschappen_nl_lezen4,persoonlijke eigenschappen nl lezen4,Personal qualities NL Read 4,,,,0.00,Personal qualities,0,232
+persoonlijke_eigenschappen_nl_schrijven0,persoonlijke eigenschappen ind regulier arbeidsritme,Personal qualities NL Write 0,,,,0.14,Personal qualities,0,233
+persoonlijke_eigenschappen_nl_schrijven1,persoonlijke eigenschappen nl schrijven1,Personal qualities NL Write 1,,,,0.00,Personal qualities,0,234
+persoonlijke_eigenschappen_nl_schrijven2,ontheffing reden hist vanwege uw sociaal maatschappelijke situatie,Personal qualities NL Write 2,,,,0.11,Personal qualities,0,235
+persoonlijke_eigenschappen_nl_schrijven3,persoonlijke eigenschappen nl schrijven3,Personal qualities NL Write 3,,,,0.00,Personal qualities,0,236
+persoonlijke_eigenschappen_nl_schrijvenfalse,contacten onderwerp werkintake  niet verschenen,Personal qualities NL writing false,,The customer does not have Dutch writing skills.,,0.30,Personal qualities,0,237
+persoonlijke_eigenschappen_nl_spreken1,persoonlijke eigenschappen nl spreken1,Personal characteristics NL speaking 1,,,,0.18,Personal qualities,0,238
+persoonlijke_eigenschappen_nl_spreken2,persoonlijke eigenschappen nl spreken2,Personal characteristics NL speak2,,,,0.16,Personal qualities,0,239
+persoonlijke_eigenschappen_nl_spreken3,relatie overig historie vorm  onderhoudsplichtige,Personal qualities NL speaking 3,,,,0.44,Personal qualities,0,240
+persoonlijke_eigenschappen_opstelling,persoonlijke eigenschappen opstelling,Personal characteristics disposition remark,,"Has a comment in the ""disposition"" field from the social worker.",,0.98,Personal qualities,0,241
+persoonlijke_eigenschappen_overige_opmerkingen,afspraak other,Personal qualities Other comments,,The customer contains a comment in the 'other' field of their personal qualities.,,0.30,Personal qualities,0,242
+persoonlijke_eigenschappen_presentatie_opm,persoonlijke eigenschappen presentatie opm,Personal characteristics presentation,,,,0.15,Personal qualities,0,243
+persoonlijke_eigenschappen_spreektaal,persoonlijke eigenschappen spreektaal,Personal qualities language,Spoken language,"The welfare recepient's spoken language. 0 is unknown, 57 is Dutch",,3.84,Personal qualities,0,244
+persoonlijke_eigenschappen_spreektaal_anders,persoonlijke eigenschappen nl schrijven2,Personal characteristics language other,,The customer speaks a language other than Dutch.,,0.11,Personal qualities,0,245
+persoonlijke_eigenschappen_taaleis_schrijfv_ok,instrument reden beeindiging historie other,Personal qualities Language requirement write ok,,The customer has met the writing portion of their Dutch language requirement.,,0.23,Personal qualities,0,246
+persoonlijke_eigenschappen_taaleis_voldaan,Taaleis voldaan,Personal qualities Language requirement satisfied,Language requirement completed,Whether the welfare recepient has met their Dutch language proficiency requirement,,4.18,Personal qualities,0,247
+persoonlijke_eigenschappen_uiterlijke_verzorging_opm,persoonlijke eigenschappen uiterlijke verzorging opm,Personal characteristics external care remark,,The customer has a comment / remark in their external apperance field.,,0.39,Personal qualities,0,248
+persoonlijke_eigenschappen_uitstroom_verw_vlgs_klant,persoonlijke eigenschappen uitstroom verw vlgs klant,Personal characteristics client's estimate of time before reintegration,Self estimate to find work,The amount of time the welfare recepient estimates they will need to find work. 1 is the the highest amount of time and 6 is the lowest,,1.94,Personal qualities,0,249
+persoonlijke_eigenschappen_uitstroom_verw_vlgs_km,uitstroom verw vlgs km,Personal characteristics caseworker estimate of time before reintegration,Social worker estimate to find work,The amount of time the social worker estimates the welfare recepient will need to find work. 1 is the the highest amount of time and 6 is the lowest,,4.25,Personal qualities,0,250
+persoonlijke_eigenschappen_zelfstandigheid_opm,persoonlijke eigenschappen zelfstandigheid opm,Personal characteristics independence,,,,0.00,Personal qualities,0,251
+pla_actueel_pla_categorie_doelstelling_16,pla actueel pla categorie doelstelling 16,PLA Current PLA Category objective 16,,,,0.14,Action Plan,0,252
+pla_actueel_pla_categorie_doelstelling_9,afspraak aanmelding afgesloten,PLA Current PLA Category Objective 9,,,,0.48,Action Plan,0,253
+pla_einde_doelstelling_bereikt,persoonlijke eigenschappen houding opm,PLA End of objective reached,,Whether the customer has reached one of the objectives in their action plan.,,0.54,Action Plan,0,254
+pla_einde_doelstelling_bereikt__nieuw_trajectplan,pla einde doelstelling bereikt  nieuw trajectplan,PLA End of objective reaches new trajectory plan,Back-to-work plan objective reached,The welfare recepient has completed an objective in their back-to-work plan,,2.56,Action Plan,0,255
+pla_einde_doelstelling_bereikt__overdracht,beschikbaarheid aantal historie afwijkend wegens sociaal maatschappelijke situatie,PLA End of objective reaches transfer,,Customer completes an objective in the action plan and transfers to a new stage.,,0.10,Action Plan,0,256
+pla_einde_doelstelling_niet_bereikt,pla einde doelstelling niet bereikt,PLA End objective not achieved,,,,0.51,Action Plan,0,257
+pla_einde_doelstelling_niet_bereikt__nieuw_trajectplan,pla einde doelstelling niet bereikt  nieuw trajectplan,PLA objective not achieved new route plan,Back-to-work plan: has not achieved objective,The number of times the welfare recepient has not achieved an objective in their back-to-work plan,,1.17,Action Plan,0,258
+pla_einde_doelstelling_niet_bereikt__overdracht,pla einde doelstelling niet bereikt  overdracht,PLA End of objective not reached transfer,,,,0.00,Action Plan,0,259
+pla_einde_geplande_einddatum_overschreden_zonder_nader_bericht,belemmering psychische problemen,PLA End of planned end date exceeded without further notice,,The planned end date of the action plan has been exceded without notice.,,0.28,Action Plan,0,260
+pla_einde_other,pla einde other,pla end other,,The action plan has ended for an 'other' reason,,0.26,Action Plan,0,261
+pla_einde_uitstroom_anders_dan_volgen_onderwijs__regulier_werk_of_als_zelfstandige,pla einde uitstroom anders dan volgen onderwijs  regulier werk of als zelfstandige,pla result other than follow education regular work or as a self -employed person,Back-to-work plan objective is not finding work,Whether the objective of a welfare recepient's back-to-work plan is something other than finding paid work.,,4.66,Action Plan,0,262
+pla_hist_pla_categorie_doelstelling_1,pla hist pla categorie doelstelling 1,PLA HIST PLA Category Objective 1,,,,0.61,Action Plan,0,263
+pla_hist_pla_categorie_doelstelling_10,pla hist pla categorie doelstelling 10,PLA HIST PLA Category Objective 10,,,,0.72,Action Plan,0,264
+pla_hist_pla_categorie_doelstelling_11,instrument ladder historie other,PLA HIST PLA Category Objective 11,,,,0.57,Action Plan,0,265
+pla_hist_pla_categorie_doelstelling_16,pla hist pla categorie doelstelling 16,PLA HIST PLA Category Objective 16,Back-to-work plan objective: volunteer work,Volunteer work is the objective in the welfare recepient's back-to-work plan,,11.93,Action Plan,0,266
+pla_hist_pla_categorie_doelstelling_2,pla hist pla categorie doelstelling 2,PLA HIST PLA Category Objective 2,Back-to-work plan objective: participation in society,,,1.45,Action Plan,0,267
+pla_hist_pla_categorie_doelstelling_27,relatie kind basisschool kind,PLA HIST PLA Category Objective 27,,,,0.20,Action Plan,0,268
+pla_hist_pla_categorie_doelstelling_3,adres unieke wijk ratio,PLA HIST PLA Category Objective 3,,,,1.09,Action Plan,0,269
+pla_hist_pla_categorie_doelstelling_4,pla hist pla categorie doelstelling 4,PLA HIST PLA Category Objective 4,,,,0.54,Action Plan,0,270
+pla_hist_pla_categorie_doelstelling_5,pla hist pla categorie doelstelling 5,PLA HIST PLA Category Objective 5,,,,0.72,Action Plan,0,271
+pla_hist_pla_categorie_doelstelling_6,beschikbaarheid recent afwijkend wegens sociaal maatschappelijke situatie,PLA HIST PLA Category Objective 6,,,,0.08,Action Plan,0,272
+pla_hist_pla_categorie_doelstelling_9,instrument aantal laatstejaar,PLA HIST PLA Category Objective 9,,,,0.60,Action Plan,0,273
+pla_hist_pla_categorie_doelstelling_other,pla hist pla categorie doelstelling other,PLA HIST PLA Category Objective Other,,,,0.68,Action Plan,0,274
+pla_historie_maatschappelijke_inspanning,pla historie maatschappelijke inspanning,PLA History Social Exercise,,Social effort included in history of action plan.,,0.43,Action Plan,0,275
+pla_historie_ontwikkeling,PLA historie ontwikkeling,PLA History Development,Back-to-work plan: development,Personal and profesional development are part of the weflare recepient's back-to-work plan.,,19.11,Action Plan,0,276
+pla_historie_other,pla historie other,Pla history other,,Other' filed in for action plan,,0.58,Action Plan,0,277
+pla_historie_werk,competentie formuleren en rapporteren,PLA History Work,,Action plan history contains work,,0.21,Action Plan,0,278
+pla_historie_werk_en_inburgering,pla historie werk en inburgering,PLA History Work and Integration,,Work and integration in Action Plan history,,0.00,Action Plan,0,279
+pla_ondertekeningen_actueel,pla ondertekeningen actueel,PLA currently signed,,The action plan is currently signed.,,0.62,Action Plan,0,280
+pla_ondertekeningen_historie,pla ondertekeningen historie,PLA signed in history,Number of signed Back-to-work plans,The number of back-to-work plans the welfare recepient has signed,,8.96,Action Plan,0,281
+relatie_kind_basisschool_kind,instrument reden beeindiging historie doelstelling bereikt  geen uitstroom,relationship child primary school child,,,,0.20,Relationship,0,282
+relatie_kind_heeft_kinderen,relatie kind heeft kinderen,relationship child has children,,The customer has children.,,0.00,Relationship,0,283
+relatie_kind_huidige_aantal,kind huidige aantal,Relationship child current number,Number of children,,,10.85,Relationship,0,284
+relatie_kind_jongvolwassen,relatie kind jongvolwassen,relationship child young adult,Number of adult children,,,7.99,Relationship,0,285
+relatie_kind_leeftijd_verschil_ouder_eerste_kind,relatie kind leeftijd verschil ouder eerste kind,relationship child age difference parent first child,Age when had first child,The age of the welfare recepient when they had their first child. Fill 0 if no children,,11.17,Relationship,0,286
+relatie_kind_tiener,relatie kind tiener,relationship child teen,,,,1.03,Relationship,0,287
+relatie_kind_volwassen,relatie kind volwassen,relationship child adult,,,,0.32,Relationship,0,288
+relatie_overig_actueel_vorm__gemachtigde,relatie overig actueel vorm  gemachtigde,Relationship Other Current Form authorized representative,,,,0.00,Relationship,0,289
+relatie_overig_actueel_vorm__kostendeler,Aantal kostendeler,Relationship Other Current Number Costsharer,Number of current costsharers,The number of people the welfare recepient currently shares household costs with.,,35.49,Relationship,0,290
+relatie_overig_actueel_vorm__onderhoudsplichtige,beschikbaarheid huidig bekend,Relationship Other Current Form maintenance person,,,,0.08,Relationship,0,291
+relatie_overig_actueel_vorm__ouders_verzorgers,relatie overig actueel vorm  ouders verzorgers,Relationship Other Current Form Parents Carers,,The customer has parents who are caring for them.,,0.24,Relationship,0,292
+relatie_overig_actueel_vorm_other,relatie overig actueel vorm other,Relationship Other Current Form Other,Number of relationships of type 'other',,,3.04,Relationship,0,293
+relatie_overig_bewindvoerder,relatie overig bewindvoerder,Relationship other administrator,Number of administrators,"The number of administrators, such as an accountant, the welfare recepient has had",,1.34,Relationship,0,294
+relatie_overig_historie_vorm__andere_inwonende,relatie overig historie vorm  andere inwonende,Relationship Other History Form Other resident,Number of roommates,,,6.99,Relationship,0,295
+relatie_overig_historie_vorm__gemachtigde,relatie overig historie vorm  gemachtigde,Relationship Other History Type Authorized Representative,Number of authorized representatives,"The number of authorized representatives the welfare recepient has had, such as a lawyer.",,3.95,Relationship,0,296
+relatie_overig_historie_vorm__kostendeler,relatie overig historie vorm  kostendeler,Relationship Other History Type Cost sharer,Number of past costsharers,The number of costshares a welfare recepient has had in the past,,3.00,Relationship,0,297
+relatie_overig_historie_vorm__onderhoudsplichtige,persoonlijke eigenschappen nl spreken3,Relationship Other History Form maintenance person,,,,0.44,Relationship,0,298
+relatie_overig_kostendeler,relatie overig kostendeler,Relationship other costsharer,Number of costsharers,The number of people the welfare recepient has ever shared costs with,,20.75,Relationship,0,299
+relatie_partner_aantal_partner___partner__gehuwd_,belemmering hist stabiele mix  sz    dagbesteding werk,relationship partner number of married partners,,The number of married partners the customer has had.,,0.10,Relationship,0,300
+relatie_partner_aantal_partner___partner__ongehuwd_,afspraak voortgangsgesprek,Relationship Partner Number of Umarried Partners,,The number of unmarried partners the customer has had.,,0.45,Relationship,0,301
+relatie_partner_huidige_partner___partner__gehuwd_,relatie partner huidige partner   partner  gehuwd,Relationship Partner Current Partner Partner Married,Currently has a partner,,,1.10,Relationship,0,302
+relatie_partner_totaal_dagen_partner,totaal aantal dagen met een partner,Relationship Partner Total Days Partner,Number of days with a partner,The total number of days the welfare recepient has spent in a romantic or civil relationship,,12.44,Relationship,0,303
+typering_aantal,typering aantal,Number of Customer Types,,,,0.07,Customer type,0,304
+typering_dagen_som,typering dagen som,Customer Type Days Sum,Number of days with assigned customer type,"The number of days the welfare recepeint has had an assigned customer type, such as cleaning or logistics",,5.07,Customer type,0,305
+typering_hist_aantal,typering hist aantal,Customer type history number,,The number of customer types in the client history,,0.28,Customer type,0,306
+typering_hist_inburgeringsbehoeftig,typering hist inburgeringsbehoeftig,Customer type history integration,,,,0.00,Customer type,0,307
+typering_hist_ind,typering hist ind,Has customer type history,,,,0.00,Customer type,0,308
+typering_hist_sector_zorg,typering hist sector zorg,Customer type history care,,,,0.00,Customer type,0,309
+typering_ind,typering ind,Has customer type,,,,0.00,Customer type,0,310
+typering_indicatie_geheime_gegevens,contacten onderwerp vakantie,Customer Type Secret Data,,,,0.09,Customer type,0,311
+typering_other,pla historie werk,Customer type other,,Customer type is other,,0.21,Customer type,0,312
+typering_transport__logistiek___tuinbouw,competentie onderzoeken,Customer type Transport Logistics Horticulture,,"The customerm works in transport, logistics, or horticulture. ",,0.18,Customer type,0,313
 typering_zorg__schoonmaak___welzijn,typering zorg  schoonmaak   welzijn,Customer type cleaning and care,,Client has work history in cleaning and care.,,0.00,Customer type,0,314
