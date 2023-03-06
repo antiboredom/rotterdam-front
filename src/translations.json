@@ -57,5 +57,6 @@
   "person": { "en": "person", "nl": "persoon" },
   "personal qualities": { "en": "personal qualities", "nl": "persoonlijke eigenschappen" },
   "relationship": { "en": "relationship", "nl": "relatie" },
-  "skill": { "en": "skill", "nl": "competentie" }
+  "skill": { "en": "skill", "nl": "competentie" },
+  "Load Sample": { "en": "Load Sample", "nl": "Load Sample" }
 }

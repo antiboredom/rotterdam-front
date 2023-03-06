@@ -190,7 +190,7 @@
       <div class="input-options-section">
         {#each archetypes as a}
           <p>
-            <button on:click|preventDefault={() => onArchetype(a)}>Load Sample "{a.name}"</button>
+            <button on:click|preventDefault={() => onArchetype(a)}>{t("Load Sample")} "{a.name}"</button>
           </p>
         {/each}
       </div>
