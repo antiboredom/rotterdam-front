@@ -7,7 +7,7 @@
   export let feature_dutch_underscore,
     feature_dutch,
     feature_english_auto_translate,
-    description_english,
+    description,
     description_dutch,
     feature_importance,
     notes,
@@ -21,6 +21,7 @@
     maxval,
     index;
 
+  console.log(description, description_dutch)
   let highlight=false;
   let el;
 
@@ -80,13 +81,13 @@
       />
     {/if}
     {#if type != "boolean"}
-      <div class="minmax">{minval} {t("to")} {maxval}</div>
+      <div class="minmax">{minval.toFixed(3)} {t("to")} {maxval.toFixed(3)}</div>
     {/if}
   </div>
   <label for={feature_dutch_underscore}>
     <div class="title">{$lang == "en" ? feature_english_auto_translate : feature_dutch}</div>
     <div class="description">
-      {$lang == "en" ? description_english : description_dutch}
+      {$lang == "en" ? description : description_dutch}
     </div>
     <div class="importance">{t("importance")}: {feature_importance}%</div>
   </label>
@@ -138,6 +139,10 @@
   .importance {
     font-size: 0.8em;
     color: #777;
+  }
+
+  .description {
+    font-size: 0.85em;
   }
 
   input,

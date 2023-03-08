@@ -11,11 +11,8 @@
   import archetypes from "./archetypes.json";
   import { t } from "./i18n";
 
-  // const worker = new Worker(new URL("./worker.js", import.meta.url), {
-  //   type: "module",
-  // });
-
   const params = new URLSearchParams(window.location.search);
+  const EXTERNAL = params.get("css") !== null;
 
   const dev = false;
   const APIURL = dev ? "http://localhost:8080/" : "https://rotterdam-model.fly.dev/";
@@ -187,13 +184,17 @@
         </p>
       </div>
 
-      <div class="input-options-section">
-        {#each archetypes as a}
-          <p>
-            <button on:click|preventDefault={() => onArchetype(a)}>{t("Load Sample")} "{a.name}"</button>
-          </p>
-        {/each}
-      </div>
+      {#if EXTERNAL == null}
+        <div class="input-options-section">
+          {#each archetypes as a}
+            <p>
+              <button on:click|preventDefault={() => onArchetype(a)}
+                >{t("Load Sample")} "{a.name}"</button
+              >
+            </p>
+          {/each}
+        </div>
+      {/if}
 
       <div class="input-options-section">
         <p><button on:click|preventDefault={onResetValues}>{t("reset_to_average")}</button></p>
@@ -310,6 +311,7 @@
     display: grid;
     height: 100vh;
     grid-template-rows: auto 1fr auto;
+    /* box-shadow: inset 0px 0px 20px 10px rgba(0,0,0,0.9); */
   }
 
   section:first-child {
@@ -455,6 +457,8 @@
   .score {
     display: flex;
     border: 1px solid #000;
+    align-items: center;
+    justify-content: center;
     /* transition: all 3s; */
     /* background-color: hsl(100, 100%, 50%); */
   }
