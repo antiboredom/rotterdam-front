@@ -5,7 +5,7 @@
   "model_output": { "en": "Model Output", "nl": "Uitvoer gegevens" },
   "enter_your_data": { "en": "Enter your data", "nl": "Vul uw gegevens" },
   "view_results_as_text": {
-    "en": "View the modelling results as text",
+    "en": "View as text",
     "nl": "Resultaten als tekst"
   },
   "Load Sample": { "en": "Load Sample", "nl": "Laad archetype" },

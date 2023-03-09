@@ -596,6 +596,7 @@
     main {
       grid-template-columns: 1fr;
       height: 100vh;
+      min-height: -webkit-fill-available;
     }
     .fields {
       grid-template-columns: 1fr;
