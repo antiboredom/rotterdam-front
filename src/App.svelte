@@ -42,6 +42,8 @@
   let fieldElements = [];
   let showCategories = true;
   let categories = [];
+  let showAbout = false;
+
   const scorePosition = params.get("score") == "left" ? "left" : "right";
 
   let categoryNames = [...new Set(FIELDS.map((f) => f.category.toLowerCase()))].sort();
@@ -64,10 +66,6 @@
       onSort();
     }
     setCategories();
-  }
-
-  function toggleText() {
-    showText = !showText;
   }
 
   function onRandomize() {
@@ -130,13 +128,32 @@
     score = results[0]["Ja"];
     loading = false;
   }
+
+  function toggleAbout() {
+    showAbout = !showAbout;
+  }
 </script>
 
 <main>
   <section>
     <header>
-      <h1>{t("data_input")}</h1>
-      <p>{t("enter_your_data")}</p>
+      {#if !EXTERNAL}
+        <div class="header-top">
+          <h1>Rotterdam Risk Score Calculator</h1>
+        </div>
+        <div class="break" />
+        <p>
+          The risk score calculator lets you run the machine learning model that the city of
+          Rotterdam uses to automate risk assessments for citizens seeking government services. The
+          form below contains all the fields that are used as inputs to the model. <a
+            href="#about"
+            on:click|preventDefault={toggleAbout}>Learn more.</a
+          >
+        </p>
+      {:else}
+        <h2>{t("data_input")}</h2>
+        <p>{t("enter_your_data")}</p>
+      {/if}
     </header>
     <article>
       <form on:submit|preventDefault={onSubmit}>
@@ -184,7 +201,7 @@
         </p>
       </div>
 
-      {#if EXTERNAL == null}
+      {#if EXTERNAL}
         <div class="input-options-section">
           {#each archetypes as a}
             <p>
@@ -222,7 +239,7 @@
 
   <section>
     <header class="output">
-      <h1>{t("model_output")}</h1>
+      <h2>{t("model_output")}</h2>
       <p>
         <select bind:value={explainView}>
           <option value="text">{t("view_results_as_text")}</option>
@@ -300,11 +317,81 @@
   </section>
 </main>
 
+{#if showAbout}
+  <div
+    class="about"
+    on:click={(e) => {
+      if (e.target == e.currentTarget) toggleAbout();
+    }}
+  >
+    <div class="about-inner">
+      <div class="about-header">
+        <h1>Rotterdam Risk Score Calculator</h1>
+        <a href="#" on:click|preventDefault={toggleAbout}>Close</a>
+      </div>
+
+      <p>
+        The risk score calculator lets you run a machine learning model that the city of Rotterdam
+        uses to automate risk assessments for citizens seeking government services. The model is
+        being run in real time, based on the values you enter.
+      </p>
+
+      <p>Higher scores indicate higher risks for fraud.</p>
+
+      <p>
+        By <a href="https://lav.io">Sam Lavigne</a> with assistance from
+        <a href="https://amyqu.work/">Amy Qu</a>.
+      </p>
+      <p>
+        This work is and based on reporting by Lighthouse Reports. Learn more about their <a
+          href="https://www.lighthousereports.com/investigation/suspicion-machines/"
+          >methodology here</a
+        >.
+      </p>
+
+      <p>
+        This project was funded with generous support from the <a
+          href="https://www.eyebeam.org/eyebeam-center-for-the-future-of-journalism/"
+          >Eyebeam Center for the Future of Journalism</a
+        >.
+      </p>
+    </div>
+  </div>
+{/if}
+
 <style>
+  .about {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: grid;
+    place-items: center;
+    /* margin: 20px; */
+    /* padding: 20px; */
+  }
+
+  .about-inner {
+    background-color: #fff;
+    border: 3px solid #000;
+    padding: 30px;
+    max-width: 700px;
+    font-size: 1.1em;
+    margin: 10px;
+  }
+
   main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: 100vh;
+  }
+
+  .break {
+    flex-basis: 100%;
+    height: 0;
   }
 
   section {
@@ -324,14 +411,21 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
   }
 
   header p {
-    opacity: 0.7;
+    /* opacity: 0.7; */
   }
 
   h1 {
-    font-size: 30px;
+    font-size: 25px;
+    font-weight: normal;
+    margin: 0;
+  }
+
+  h2 {
+    font-size: 20px;
     font-weight: normal;
     margin: 0;
   }
@@ -525,5 +619,8 @@
     .input-options.edit-input {
       margin-top: 15px;
     }
+  }
+  a {
+    color: #000;
   }
 </style>
