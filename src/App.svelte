@@ -353,7 +353,8 @@
         This project was funded with generous support from the <a
           href="https://www.eyebeam.org/eyebeam-center-for-the-future-of-journalism/"
           >Eyebeam Center for the Future of Journalism</a
-        >.
+        >, and the
+        <a href="https://artisticinquiry.org/">Center for Artistic Inquiry and Reporting</a>.
       </p>
     </div>
   </div>
