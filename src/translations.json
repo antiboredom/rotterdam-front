@@ -8,6 +8,10 @@
     "en": "View as text",
     "nl": "Resultaten als tekst"
   },
+  "View as poem": {
+    "en": "View as poem",
+    "nl": "Resultaten als gedicht"
+  },
   "Load Sample": { "en": "Load Sample", "nl": "Laad archetype" },
   "view_results_as_trees": {
     "en": "View the modelling results as trees",
@@ -35,6 +39,7 @@
   "to": { "en": "to", "nl": "naar" },
   "and": { "en": "and", "nl": "en" },
   "then": { "en": "then", "nl": "dan" },
+  "than": { "en": "then", "nl": "dan" },
   "Tree": { "en": "Tree", "nl": "Tree" },
   "the score is": { "en": "the score is", "nl": "de score is" },
   "model_description": {
@@ -58,5 +63,6 @@
   "person": { "en": "person", "nl": "persoon" },
   "personal qualities": { "en": "personal qualities", "nl": "persoonlijke eigenschappen" },
   "relationship": { "en": "relationship", "nl": "relatie" },
-  "skill": { "en": "skill", "nl": "competentie" }
+  "skill": { "en": "skill", "nl": "competentie" },
+  "poem": { "en": "poem", "nl": "gedicht" }
 }

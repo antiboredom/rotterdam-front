@@ -4,6 +4,7 @@
   import { userFields } from "./stores.js";
   // import TextExplain from "./TextExplain.svelte";
   import TextTree from "./TextTree.svelte";
+  import TextBlock from "./TextBlock.svelte";
   import Tree from "./Tree.svelte";
   import TREES from "./trees.json";
   import { fade } from "svelte/transition";
@@ -243,6 +244,7 @@
       <p>
         <select bind:value={explainView}>
           <option value="text">{t("view_results_as_text")}</option>
+          <option value="poem">{t("View as poem")}</option>
           <option value="trees">{t("view_results_as_trees")}</option>
         </select>
       </p>
@@ -261,6 +263,10 @@
                 </LazyLoad>
               {/each}
             {/key}
+          </div>
+        {:else if explainView == "poem"}
+          <div class="text-poem">
+            <TextBlock /> <span style="text-transform:uppercase; font-style: italic; line-height: 1.2;">The Risk Score Is {score}.</span>
           </div>
         {:else}
           <div class="text-trees">
