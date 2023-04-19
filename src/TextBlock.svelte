@@ -59,10 +59,47 @@
   {/each}
 </span>
 
+<!-- <div> -->
+<!--   {#each Object.keys(explanations) as var_id, var_index} -->
+<!--     <div class="sentence"> -->
+<!--       {#if var_index > 0} -->
+<!--         and  -->
+<!--       {/if} -->
+<!--       {t("Because")} -->
+<!---->
+<!--       {$lang == "en" -->
+<!--         ? featureKey[var_id].feature_english_auto_translate -->
+<!--         : featureKey[var_id].feature_dutch} -->
+<!---->
+<!--       {#each explanations[var_id] as part, index} -->
+<!--         {#if index > 0} -->
+<!--           , {t("and")} -->
+<!--         {/if} -->
+<!--         {#if featureKey[var_id].type == "boolean"} -->
+<!--           is {part.comparison} -->
+<!--         {:else} -->
+<!--           {t("is")} {part.comparison} {t("than")} {part.split} -->
+<!--         {/if} -->
+<!--       {/each} -->
+<!--     </div> -->
+<!--   {/each} -->
+<!-- </div> -->
+
 <style>
   span {
-    text-transform:uppercase;
+    text-transform: uppercase;
     font-style: italic;
     line-height: 1.2;
+  }
+  div {
+    text-transform: uppercase;
+    font-style: italic;
+    line-height: 1.2;
+  }
+  .sentence {
+    margin-left: 70px;
+  }
+  .sentence:first-child {
+    margin-left: 0;
   }
 </style>
