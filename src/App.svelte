@@ -390,6 +390,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: 100vh;
+    height: -webkit-fill-available;
   }
 
   .break {
@@ -400,6 +401,7 @@
   section {
     display: grid;
     height: 100vh;
+    height: -webkit-fill-available;
     grid-template-rows: auto 1fr auto;
     /* box-shadow: inset 0px 0px 20px 10px rgba(0,0,0,0.9); */
   }
@@ -599,6 +601,7 @@
     main {
       grid-template-columns: 1fr;
       height: 100vh;
+      height: -webkit-fill-available;
       min-height: -webkit-fill-available;
     }
     .fields {
