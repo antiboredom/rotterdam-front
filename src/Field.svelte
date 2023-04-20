@@ -173,4 +173,9 @@
   /* .field { */
   /*   margin: 0; */
   /* } */
+  @media (max-width: 900px) {
+    .field {
+      padding: 8px;
+    }
+  }
 </style>

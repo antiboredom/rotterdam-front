@@ -148,8 +148,7 @@
           Rotterdam uses to automate risk assessments for citizens seeking government services. The
           form below contains all the fields that are used as inputs to the model. <a
             href="#about"
-            on:click|preventDefault={toggleAbout}>Learn more.</a
-          >
+            on:click|preventDefault={toggleAbout}>Learn more.</a>
         </p>
       {:else}
         <h2>{t("data_input")}</h2>
@@ -197,8 +196,7 @@
         </p>
         <p>
           <label
-            ><input type="checkbox" bind:checked={showCategories} />{t("show_categories")}</label
-          >
+            ><input type="checkbox" bind:checked={showCategories} />{t("show_categories")}</label>
         </p>
       </div>
 
@@ -207,8 +205,7 @@
           {#each archetypes as a}
             <p>
               <button on:click|preventDefault={() => onArchetype(a)}
-                >{t("Load Sample")} "{a.name}"</button
-              >
+                >{t("Load Sample")} "{a.name}"</button>
             </p>
           {/each}
         </div>
@@ -220,8 +217,7 @@
       </div>
 
       <button class="check-score" disabled={loading} on:click|preventDefault={onSubmit}
-        >{t("run_model")}</button
-      >
+        >{t("run_model")}</button>
 
       {#if scorePosition == "left"}
         <div class="score">
@@ -266,7 +262,9 @@
           </div>
         {:else if explainView == "poem"}
           <div class="text-poem">
-            <TextBlock /> <span style="text-transform:uppercase; font-style: italic; line-height: 1.2;">The Risk Score Is {score}.</span>
+            <TextBlock />
+            <span style="text-transform:uppercase; font-style: italic; line-height: 1.2;"
+              >The Risk Score Is {score}.</span>
           </div>
         {:else}
           <div class="text-trees">
@@ -313,8 +311,7 @@
           <button
             on:click={() => {
               window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
-            }}
-          >
+            }}>
             {t("Edit Input")}
           </button>
         </div>
@@ -328,8 +325,7 @@
     class="about"
     on:click={(e) => {
       if (e.target == e.currentTarget) toggleAbout();
-    }}
-  >
+    }}>
     <div class="about-inner">
       <div class="about-header">
         <h1>Rotterdam Risk Score Calculator</h1>
@@ -626,6 +622,15 @@
     }
     .input-options.edit-input {
       margin-top: 15px;
+    }
+    header,
+    article,
+    nav {
+      padding: 5px;
+    }
+    header p, nav p {
+      font-size: 0.8em;
+      margin: 4px 0px;
     }
   }
   a {
