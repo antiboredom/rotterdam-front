@@ -396,6 +396,13 @@
 	}
   .text-poem {
     font-size: 1.0vh;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 100%;
+		padding: 20px;
+		z-index: 0;
   }
   .about {
     position: fixed;
@@ -434,6 +441,7 @@
 
   article.right {
     position: relative;
+		height: 100vh;
   }
 
   section {
@@ -445,7 +453,7 @@
   }
 
   section:first-child {
-    border-right: 5px solid #000;
+    /* border-right: 5px solid #000; */
   }
 
   header {
@@ -591,30 +599,33 @@
   }
 
   .score {
+		z-index: 2;
     position: absolute;
     top: 50%;
     left: 50%;
 		transform: translate(-50%, -50%);
     display: flex;
 		flex-direction: column;
-    border: 1px solid #000;
+    border: 10px solid #fff;
     align-items: center;
     justify-content: center;
 		font-size: 2vw;
-		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+		box-shadow: 0px 0px 10px rgba(255, 255, 255, 1.0);
+		border-radius: 0px;
+		padding:40px;
     /* transition: all 3s; */
     /* background-color: hsl(100, 100%, 50%); */
   }
 
   .score-label,
   .score-value {
-    padding: 20px;
+    /* padding: 20px; */
     text-align: center;
   }
 
   .score-label {
-    border-bottom: 1px solid #000;
-    font-size: 0.9em;
+    /* border-bottom: 1px solid #000; */
+    /* font-size: 0.9em; */
     /* color: #fff; */
   }
 
