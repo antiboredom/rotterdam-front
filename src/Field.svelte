@@ -4,29 +4,28 @@
 
   export let show = true;
 
-  export let feature_dutch_underscore,
-    feature_dutch,
-    feature_english_auto_translate,
-    description,
-    description_dutch,
-    feature_importance,
-    notes,
-    understand,
-    default_value,
-    sum,
-    category,
-    type,
-    feature_english,
-    minval,
-    maxval,
-    index;
+  export let feature_dutch_underscore;
+  export let  feature_dutch;
+  export let  feature_english_auto_translate;
+  export let  description;
+  export let  description_dutch;
+  export let  feature_importance;
+  export let  notes="";
+  export let  understand="";
+  export let  default_value;
+  export let  sum="";
+  export let  category;
+  export let  type;
+  export let  feature_english;
+  export let  minval;
+  export let  maxval;
+  export let  index;
 
-  console.log(description, description_dutch)
-  let highlight=false;
+  let highlight = false;
   let el;
 
   let timeout;
-  export function animate(){
+  export function animate() {
     clearTimeout(timeout);
     opacity = 0;
     timeout = setTimeout(() => {
@@ -35,7 +34,7 @@
   }
 
   function checkVal(e) {
-    if (e.target.value > maxval)  {
+    if (e.target.value > maxval) {
       $userFields[index] = maxval;
     }
 
@@ -50,11 +49,15 @@
   //     console.log(index, val[index]);
   // });
 
-  highlightedField.subscribe(val => {
+  highlightedField.subscribe((val) => {
     if (val == index) {
       highlight = true;
       if (el) {
-        el.scrollIntoView({behavior: "smooth"});
+        el.scrollIntoView({
+          behavior: "smooth",
+          block: "center",
+          inline: "center",
+        });
       }
     } else {
       highlight = false;
@@ -62,8 +65,8 @@
   });
 </script>
 
-<div class="field" id={"field-" + index} class:highlight={highlight} bind:this={el}>
-  <div class="input-holder" style:opacity={opacity}>
+<div class="field" id={"field-" + index} class:highlight bind:this={el}>
+  <div class="input-holder" style:opacity>
     {#if type == "boolean"}
       <select name={feature_dutch_underscore} bind:value={$userFields[index]}>
         <option value={0.0}>{t("false")}</option>
@@ -101,7 +104,8 @@
     align-items: flex-start;
     padding: 15px;
     border-bottom: 1px solid #666;
-    transition: 0.5s all;
+    transition: 1.0s all;
+    background-color: white;
   }
 
   .field.highlight {

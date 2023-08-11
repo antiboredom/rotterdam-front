@@ -1,7 +1,7 @@
 <script>
   import FIELDS from "./fields.js";
   import Field from "./Field.svelte";
-  import { userFields } from "./stores.js";
+  import { userFields, highlightedField } from "./stores.js";
   // import TextExplain from "./TextExplain.svelte";
   import TextTree from "./TextTree.svelte";
   import TextBlock from "./TextBlock.svelte";
@@ -32,16 +32,17 @@
         .toLowerCase()
         .localeCompare(b.feature_english_auto_translate.toLowerCase()),
     importance: (a, b) => b.feature_importance - a.feature_importance,
+    index: (a, b) => a.index - b.index,
   };
 
   let score = 0;
   let loading = false;
-  let sort = "alphabetical";
+  let sort = "index";
   let show = "all";
-  let explainView = "text";
+  let explainView = "poem";
   let treeIndex = 499;
   let fieldElements = [];
-  let showCategories = true;
+  let showCategories = false;
   let categories = [];
   let showAbout = false;
 
@@ -63,11 +64,46 @@
     if (show == "all") {
       sortedFields = [...FIELDS].sort(sorters[sort]);
     } else {
-      sortedFields = FIELDS.filter((f) => f.feature_importance > 10);
+      sortedFields = FIELDS.filter((f) => f.feature_importance > 1);
       onSort();
     }
     setCategories();
   }
+
+  function sleep(ms) {
+    return new Promise((resolve) => setTimeout(resolve, ms));
+  }
+
+  async function autoRun() {
+    onResetValues();
+    let oldFields = $userFields;
+    for (let i = 0; i < $userFields.length; i++) {
+      const f = FIELDS[i];
+      if (f.feature_importance <= 1 && show == "importance") {
+        continue;
+      }
+      let newVal;
+      if (f.type == "boolean") {
+        // newVal =  Math.random() < 0.5 ? 0.0 : 1.0;
+        newVal = oldFields[i] == 1.0 ? 0.0 : 1.0;
+      } else if (f.type == "float") {
+        newVal = +(Math.random() * f.maxval).toFixed(1);
+      } else {
+        newVal = parseInt(Math.random() * f.maxval);
+      }
+      highlightedField.set(f.index);
+      await sleep(1000);
+      oldFields[i] = newVal;
+      userFields.set(oldFields);
+      await sleep(500);
+      await onSubmit();
+    }
+    highlightedField.set(-1);
+  }
+
+  setTimeout(() => {
+    autoRun();
+  }, 1000);
 
   function onRandomize() {
     // randomizing = true;
@@ -137,24 +173,25 @@
 
 <main>
   <section>
-    <header>
-      {#if !EXTERNAL}
-        <div class="header-top">
-          <h1>Rotterdam Risk Score Calculator</h1>
-        </div>
-        <div class="break" />
-        <p>
-          The risk score calculator lets you run the machine learning model that the city of
-          Rotterdam uses to automate risk assessments for citizens seeking government services. The
-          form below contains all the fields that are used as inputs to the model. <a
-            href="#about"
-            on:click|preventDefault={toggleAbout}>Learn more.</a>
-        </p>
-      {:else}
-        <h2>{t("data_input")}</h2>
-        <p>{t("enter_your_data")}</p>
-      {/if}
-    </header>
+    <!-- <header> -->
+    <!-- {#if !EXTERNAL} -->
+    <!--   <div class="header-top"> -->
+    <!--     <h1>Rotterdam Risk Score Calculator</h1> -->
+    <!--   </div> -->
+    <!--   <div class="break" /> -->
+    <!--   <p> -->
+    <!--     The risk score calculator lets you run the machine learning model that the city of -->
+    <!--     Rotterdam uses to automate risk assessments for citizens seeking government services. The -->
+    <!--     form below contains all the fields that are used as inputs to the model. <a -->
+    <!--       href="#about" -->
+    <!--       on:click|preventDefault={toggleAbout}>Learn more.</a -->
+    <!--     > -->
+    <!--   </p> -->
+    <!-- {:else} -->
+    <!--   <h2>{t("data_input")}</h2> -->
+    <!--   <p>{t("enter_your_data")}</p> -->
+    <!-- {/if} -->
+    <!-- </header> -->
     <article>
       <form on:submit|preventDefault={onSubmit}>
         {#if showCategories}
@@ -173,14 +210,14 @@
         {:else}
           <div class="fields">
             {#each sortedFields as field, index}
-              <Field {...field} bind:this={fieldElements[index]} />
+              <Field {...field} bind:this={fieldElements[field.index]} />
             {/each}
           </div>
         {/if}
       </form>
     </article>
 
-    <nav class="input-options">
+    <nav class="input-options" style="display: none;">
       <div class="input-options-section">
         <p>
           <select bind:value={show} on:change={onFilter}>
@@ -192,11 +229,13 @@
           <select bind:value={sort} on:change={onSort}>
             <option value="alphabetical">{t("sort_alphabetically")}</option>
             <option value="importance">{t("sort_importance")}</option>
+            <option value="index">{t("Sort by Index")}</option>
           </select>
         </p>
         <p>
           <label
-            ><input type="checkbox" bind:checked={showCategories} />{t("show_categories")}</label>
+            ><input type="checkbox" bind:checked={showCategories} />{t("show_categories")}</label
+          >
         </p>
       </div>
 
@@ -205,7 +244,8 @@
           {#each archetypes as a}
             <p>
               <button on:click|preventDefault={() => onArchetype(a)}
-                >{t("Load Sample")} "{a.name}"</button>
+                >{t("Load Sample")} "{a.name}"</button
+              >
             </p>
           {/each}
         </div>
@@ -217,7 +257,8 @@
       </div>
 
       <button class="check-score" disabled={loading} on:click|preventDefault={onSubmit}
-        >{t("run_model")}</button>
+        >{t("run_model")}</button
+      >
 
       {#if scorePosition == "left"}
         <div class="score">
@@ -235,18 +276,28 @@
   </section>
 
   <section>
-    <header class="output">
-      <h2>{t("model_output")}</h2>
-      <p>
-        <select bind:value={explainView}>
-          <option value="text">{t("view_results_as_text")}</option>
-          <option value="poem">{t("View as poem")}</option>
-          <option value="trees">{t("view_results_as_trees")}</option>
-        </select>
-      </p>
-    </header>
-    <article>
-      {#if score != 0 && loading === false}
+    <!-- <header class="output"> -->
+    <!--   <h2>{t("model_output")}</h2> -->
+    <!--   <p> -->
+    <!--     <select bind:value={explainView}> -->
+    <!--       <option value="text">{t("view_results_as_text")}</option> -->
+    <!--       <option value="poem">{t("View as poem")}</option> -->
+    <!--       <option value="trees">{t("view_results_as_trees")}</option> -->
+    <!--     </select> -->
+    <!--   </p> -->
+    <!-- </header> -->
+    <article class="right">
+      {#if score != 0}
+				<div class="score" style="background-color: hsl({100 - score * 100}, 100%, 50%)">
+					<div class="score-label">{t("risk_score")}</div>
+					<div class="score-value">
+						{#if loading}
+							<div class="loader" />
+						{:else}
+							{score > 0 ? score : "?"}
+						{/if}
+					</div>
+				</div>
         {#if explainView == "trees"}
           <div class="text-trees">
             {#key score}
@@ -262,9 +313,12 @@
           </div>
         {:else if explainView == "poem"}
           <div class="text-poem">
-            <TextBlock />
+						{#key score}
+							<TextBlock />
+						{/key}
             <span style="text-transform:uppercase; font-style: italic; line-height: 1.2;"
-              >The Risk Score Is {score}.</span>
+              >The Risk Score Is {score}.</span
+            >
           </div>
         {:else}
           <div class="text-trees">
@@ -279,44 +333,17 @@
           </div>
         {/if}
       {:else}
-        <div class="no-score">
-          <div>
-            {#if loading}
-              <p>...{t("loading")}...</p>
-            {:else}
-              <p>{t("Enter some data and run the model to see results.")}</p>
-            {/if}
-          </div>
-        </div>
+        <!-- <div class="no-score"> -->
+        <!--   <div> -->
+        <!--     {#if loading} -->
+        <!--       <p>...{t("loading")}...</p> -->
+        <!--     {:else} -->
+        <!--       <p>{t("Enter some data and run the model to see results.")}</p> -->
+        <!--     {/if} -->
+        <!--   </div> -->
+        <!-- </div> -->
       {/if}
     </article>
-    <nav class="output">
-      <p class="tip">
-        {t("model_description")}
-      </p>
-      <div>
-        {#if scorePosition != "left"}
-          <div class="score" style="background-color: hsl({100 - score * 100}, 100%, 50%)">
-            <div class="score-label">{t("risk_score")}</div>
-            <div class="score-value">
-              {#if loading}
-                <div class="loader" />
-              {:else}
-                {score > 0 ? score : "?"}
-              {/if}
-            </div>
-          </div>
-        {/if}
-        <div class="input-options edit-input">
-          <button
-            on:click={() => {
-              window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
-            }}>
-            {t("Edit Input")}
-          </button>
-        </div>
-      </div>
-    </nav>
   </section>
 </main>
 
@@ -325,7 +352,8 @@
     class="about"
     on:click={(e) => {
       if (e.target == e.currentTarget) toggleAbout();
-    }}>
+    }}
+  >
     <div class="about-inner">
       <div class="about-header">
         <h1>Rotterdam Risk Score Calculator</h1>
@@ -363,6 +391,12 @@
 {/if}
 
 <style>
+	*::-webkit-scrollbar{
+		display: none;
+	}
+  .text-poem {
+    font-size: 1.0vh;
+  }
   .about {
     position: fixed;
     z-index: 999;
@@ -396,6 +430,10 @@
   .break {
     flex-basis: 100%;
     height: 0;
+  }
+
+  article.right {
+    position: relative;
   }
 
   section {
@@ -463,7 +501,6 @@
 
   article {
     overflow: scroll;
-    border-bottom: 2px solid #000;
   }
 
   .input-options {
@@ -554,28 +591,35 @@
   }
 
   .score {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+		transform: translate(-50%, -50%);
     display: flex;
+		flex-direction: column;
     border: 1px solid #000;
     align-items: center;
     justify-content: center;
+		font-size: 2vw;
+		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
     /* transition: all 3s; */
     /* background-color: hsl(100, 100%, 50%); */
   }
 
   .score-label,
   .score-value {
-    padding: 10px;
+    padding: 20px;
     text-align: center;
   }
 
   .score-label {
-    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
     font-size: 0.9em;
     /* color: #fff; */
   }
 
   .score-value {
-    font-size: 30px;
+		font-size: 1.2em;
     /* color: #fff; */
   }
 
@@ -631,7 +675,8 @@
     nav {
       padding: 5px;
     }
-    header p, nav p {
+    header p,
+    nav p {
       font-size: 0.8em;
       margin: 4px 0px;
     }
